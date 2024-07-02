@@ -3,56 +3,28 @@
  * @return {number}
  */
 var longestConsecutive = function(nums) {
-    if(nums.length === 0){
-        return 0
-    }
+    const set = new Set(nums)
+    let sequence = 0
 
-    nums.sort((a,b) => a - b)
-    const map = new Map()
-    for(let i=0; i<nums.length; i++){
-        map.set(nums[i], 1)
-    }
-
-    for(let i=0; i<nums.length; i++){
-        if(map.has(nums[i]-1)){
-            map.set(nums[i], 0)
-        }
-    }
-
-    let maxCount = 1
-    for(const n of nums){
-        if(map.get(n) === 1){
-            let sequence = 1
-            while(map.has(n + sequence)){
-                sequence++
+    for(const num of nums){
+        if(!set.has(num-1)){
+            let count = 1
+            while(set.has(num+count)){
+                count++
             }
-
-            maxCount = Math.max(sequence, maxCount)
+            sequence = Math.max(sequence, count)
         }
     }
-
-    return maxCount
-    
+    return sequence
 };
 
-// base case
-// if nums is empty return 0
+// create set
+// let sequence is 0
 
-// sort the nums
-// go through nums and add it to map
-
-// mark the starting point
-// go through nums and if the map has nums[i] - 1
-// set map nums[i] to 0
-
-// count the sequence
-// max count is 1
-// for n of nums
-// if map.get(n) is 1
-// seqence is 1
-// while map.has(n+sequence)
-// sequence ++
-
-// max count is max between sequence and max count
-
-// return max count
+// iterate through nums
+// if num is the lowest // !set.has[num-1]
+// then count is 1
+// while set.has[num+count]
+// count ++
+// sequence is math.max count, sequence
+// return sequence
