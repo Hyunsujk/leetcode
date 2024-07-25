@@ -17,28 +17,13 @@ var cloneGraph = function(node) {
     const map = new Map();
 
     function copyNode(n){
-        if(map.has(n)){
-            return map.get(n);
+        if(!map.has(n)){
+            const copy = new Node(n.val)
+            map.set(n, copy)
+            copy.neighbors = n.neighbors.map(copyNode)
         }
-        let copy = new Node(n.val);
-        map.set(n, copy);
-        copy.neighbors = n.neighbors.map(copyNode);
-        
-        return copy;
+        return map.get(n)
     }
 
     return copyNode(node);
 };
-
-// base case
-// if no node, return null
-
-// map to store copied node
-// function copyNode
-// if map has node, return map.get node
-// if map doesn't have node
-// create a new node, add the new node to map
-// get the added node, and copy neighbors,
-// node.neighbors.map(copy)
-// return new node
-// return copyNode(node)
