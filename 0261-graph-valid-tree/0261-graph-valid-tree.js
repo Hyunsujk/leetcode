@@ -46,14 +46,3 @@ var validTree = function(n, edges) {
     return true
     
 };
-
-// tree = no cycle, one component
-// make adj list
-// helper node
-// go through and mark visited and parent
-// if nei is visited and nei is not parent of node
-// return false
-// from 0 til <n 
-// if not visited then helper(i)
-// component ++
-// if component is >1 return false
