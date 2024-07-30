@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/Hyunsujk/leetcode/tree/master/0001-two-sum) |
 | [0004-median-of-two-sorted-arrays](https://github.com/Hyunsujk/leetcode/tree/master/0004-median-of-two-sorted-arrays) |
+| [0056-merge-intervals](https://github.com/Hyunsujk/leetcode/tree/master/0056-merge-intervals) |
 | [0128-longest-consecutive-sequence](https://github.com/Hyunsujk/leetcode/tree/master/0128-longest-consecutive-sequence) |
 ## Hash Table
 |  |
@@ -61,4 +62,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0133-clone-graph](https://github.com/Hyunsujk/leetcode/tree/master/0133-clone-graph) |
 | [0261-graph-valid-tree](https://github.com/Hyunsujk/leetcode/tree/master/0261-graph-valid-tree) |
+## Sorting
+|  |
+| ------- |
+| [0056-merge-intervals](https://github.com/Hyunsujk/leetcode/tree/master/0056-merge-intervals) |
 <!---LeetCode Topics End-->
