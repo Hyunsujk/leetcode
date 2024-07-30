@@ -3,31 +3,25 @@
  * @return {number[][]}
  */
 var merge = function(intervals) {
-    intervals.sort((a,b)=>a[0]-b[0])
-    const result = []
-    let prev = intervals[0]
+    intervals.sort((a,b) => a[0]-b[0])
+    const result = [intervals[0]]
 
-    for(let i=1; i<intervals.length; i++){
-        if(prev[1] >= intervals[i][0]){
-            prev[1] = Math.max(prev[1], intervals[i][1])
+    for(const int of intervals){
+        const lastElementEndTime = result[result.length-1][1]
+        if(int[0] <= lastElementEndTime){
+            result[result.length-1][1] = Math.max(int[1], lastElementEndTime)
         } else {
-            result.push(prev)
-            prev = intervals[i]
+            result.push(int)
         }
     }
 
-    result.push(prev)
-    return result    
+    return result
 };
 
 // sort intervals
-// prev is index 0
-// i=1 i<intervals.length
-// if prev end >= interval i start 
-// update prev end to math max prev end, i end
-// else // interval doesn't overlap
-// push prev to result
-// prev is interval
-
-// push last interval(prev) to result
+// result = [intervals[0]]
+// for each int of intervals
+// if int start is <= result last element end
+// result last element end is max of int end and last element end
+// else push int
 // return result
