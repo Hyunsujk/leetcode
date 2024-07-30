@@ -12,7 +12,7 @@ var longestPalindrome = function(s) {
             left--;
             right++;
         }
-        return right - left - 1; // overrun
+        return right - left - 1; // overrun, exclude left, then -1 for included right. 
     }
 
     let max = 0
