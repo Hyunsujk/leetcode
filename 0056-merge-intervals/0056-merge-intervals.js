@@ -17,11 +17,3 @@ var merge = function(intervals) {
 
     return result
 };
-
-// sort intervals
-// result = [intervals[0]]
-// for each int of intervals
-// if int start is <= result last element end
-// result last element end is max of int end and last element end
-// else push int
-// return result
