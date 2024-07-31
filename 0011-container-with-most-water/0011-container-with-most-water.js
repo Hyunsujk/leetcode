@@ -17,14 +17,13 @@ var maxArea = function(height) {
             rPt--
         }  
     }
-    
+
     return maxArea
 };
 
 // left pointer, right pointer
 // max area 0
 // while left pointer is less than right pointer
-// if left pointer height is less than right pointer, left ++
 // max area is max between maxArea and right pointer - left pointer * min of heights
+// if left pointer height is less than right pointer, left ++
 // if right pointer height is less than left pointer, right --
-// update max area
