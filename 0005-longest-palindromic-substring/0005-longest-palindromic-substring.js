@@ -26,7 +26,7 @@ var longestPalindrome = function(s) {
 
         if(sub > max){
             max = sub
-            start = i - Math.floor((sub-1)/2)
+            start = i - Math.floor((sub-1)/2) // because i is part of the left partition
             end = i + Math.floor(sub/2)
         }
     }
