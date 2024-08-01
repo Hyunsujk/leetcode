@@ -26,7 +26,7 @@ var hasCycle = function(head) {
     return false  
 };
 // visited node, pos
-// while next is not null, check if the node is visited
+// while node is not null, check if the node is visited
 // if visited then has a cycle, return true
 // if not visited, mark the node as visited
 // update node with node.next
