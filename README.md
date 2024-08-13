@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0056-merge-intervals](https://github.com/Hyunsujk/leetcode/tree/master/0056-merge-intervals) |
 | [0128-longest-consecutive-sequence](https://github.com/Hyunsujk/leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0139-word-break](https://github.com/Hyunsujk/leetcode/tree/master/0139-word-break) |
+| [0268-missing-number](https://github.com/Hyunsujk/leetcode/tree/master/0268-missing-number) |
 ## Hash Table
 |  |
 | ------- |
@@ -21,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0133-clone-graph](https://github.com/Hyunsujk/leetcode/tree/master/0133-clone-graph) |
 | [0139-word-break](https://github.com/Hyunsujk/leetcode/tree/master/0139-word-break) |
 | [0141-linked-list-cycle](https://github.com/Hyunsujk/leetcode/tree/master/0141-linked-list-cycle) |
+| [0268-missing-number](https://github.com/Hyunsujk/leetcode/tree/master/0268-missing-number) |
 ## Union Find
 |  |
 | ------- |
@@ -41,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/Hyunsujk/leetcode/tree/master/0004-median-of-two-sorted-arrays) |
+| [0268-missing-number](https://github.com/Hyunsujk/leetcode/tree/master/0268-missing-number) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -77,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0056-merge-intervals](https://github.com/Hyunsujk/leetcode/tree/master/0056-merge-intervals) |
+| [0268-missing-number](https://github.com/Hyunsujk/leetcode/tree/master/0268-missing-number) |
 ## Greedy
 |  |
 | ------- |
@@ -93,4 +97,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0141-linked-list-cycle](https://github.com/Hyunsujk/leetcode/tree/master/0141-linked-list-cycle) |
+## Math
+|  |
+| ------- |
+| [0268-missing-number](https://github.com/Hyunsujk/leetcode/tree/master/0268-missing-number) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0268-missing-number](https://github.com/Hyunsujk/leetcode/tree/master/0268-missing-number) |
 <!---LeetCode Topics End-->
