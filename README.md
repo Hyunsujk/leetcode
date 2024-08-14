@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/Hyunsujk/leetcode/tree/master/0001-two-sum) |
 | [0004-median-of-two-sorted-arrays](https://github.com/Hyunsujk/leetcode/tree/master/0004-median-of-two-sorted-arrays) |
 | [0011-container-with-most-water](https://github.com/Hyunsujk/leetcode/tree/master/0011-container-with-most-water) |
+| [0015-3sum](https://github.com/Hyunsujk/leetcode/tree/master/0015-3sum) |
 | [0056-merge-intervals](https://github.com/Hyunsujk/leetcode/tree/master/0056-merge-intervals) |
 | [0128-longest-consecutive-sequence](https://github.com/Hyunsujk/leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0139-word-break](https://github.com/Hyunsujk/leetcode/tree/master/0139-word-break) |
@@ -53,6 +54,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/Hyunsujk/leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0011-container-with-most-water](https://github.com/Hyunsujk/leetcode/tree/master/0011-container-with-most-water) |
+| [0015-3sum](https://github.com/Hyunsujk/leetcode/tree/master/0015-3sum) |
 | [0141-linked-list-cycle](https://github.com/Hyunsujk/leetcode/tree/master/0141-linked-list-cycle) |
 | [0647-palindromic-substrings](https://github.com/Hyunsujk/leetcode/tree/master/0647-palindromic-substrings) |
 ## Dynamic Programming
@@ -79,6 +81,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0015-3sum](https://github.com/Hyunsujk/leetcode/tree/master/0015-3sum) |
 | [0056-merge-intervals](https://github.com/Hyunsujk/leetcode/tree/master/0056-merge-intervals) |
 | [0268-missing-number](https://github.com/Hyunsujk/leetcode/tree/master/0268-missing-number) |
 ## Greedy
