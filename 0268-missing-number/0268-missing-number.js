@@ -3,15 +3,14 @@
  * @return {number}
  */
 var missingNumber = function(nums) {
-    nums.sort((a, b) => a-b)
+    let res = nums.length
     for(let i=0; i<nums.length; i++){
-        if(nums[i] !== i){
-            return i
-        }
+        res += i - nums[i]
     }
-    return nums.length
+    return res
 };
 
-// use index to see if the value is missing
-// if the value is not index, return index
-// else return n
+// i from 0 til < length
+// add i - nums[i] so add 0 til n-1 while subtracting what we really have.
+// res start with nums.length
+// return res
