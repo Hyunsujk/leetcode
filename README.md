@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0056-merge-intervals](https://github.com/Hyunsujk/leetcode/tree/master/0056-merge-intervals) |
 | [0128-longest-consecutive-sequence](https://github.com/Hyunsujk/leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0139-word-break](https://github.com/Hyunsujk/leetcode/tree/master/0139-word-break) |
+| [0252-meeting-rooms](https://github.com/Hyunsujk/leetcode/tree/master/0252-meeting-rooms) |
 | [0268-missing-number](https://github.com/Hyunsujk/leetcode/tree/master/0268-missing-number) |
 | [0271-encode-and-decode-strings](https://github.com/Hyunsujk/leetcode/tree/master/0271-encode-and-decode-strings) |
 ## Hash Table
@@ -87,6 +88,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0015-3sum](https://github.com/Hyunsujk/leetcode/tree/master/0015-3sum) |
 | [0056-merge-intervals](https://github.com/Hyunsujk/leetcode/tree/master/0056-merge-intervals) |
+| [0252-meeting-rooms](https://github.com/Hyunsujk/leetcode/tree/master/0252-meeting-rooms) |
 | [0268-missing-number](https://github.com/Hyunsujk/leetcode/tree/master/0268-missing-number) |
 ## Greedy
 |  |
