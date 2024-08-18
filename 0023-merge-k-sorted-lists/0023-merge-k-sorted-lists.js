@@ -10,8 +10,8 @@
  * @return {ListNode}
  */
 var mergeKLists = function(lists) {
-    if(lists.length === 0){
-        return null
+    if(lists.length <= 1){
+        return lists[0] || null
     } 
     while(lists.length > 1){
         const list1 = lists.pop()
