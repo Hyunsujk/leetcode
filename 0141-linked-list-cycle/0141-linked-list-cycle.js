@@ -13,14 +13,14 @@
 var hasCycle = function(head) {
     const visited = new Map()
     let node = head
-    let pos = 1
+    //let pos = 1
     while(node){
         if(visited.get(node)){
             return true
         } else {
-            visited.set(node, pos)
+            visited.set(node, node.val)
             node = node.next
-            pos++
+            //pos++
         }
     }
     return false  
