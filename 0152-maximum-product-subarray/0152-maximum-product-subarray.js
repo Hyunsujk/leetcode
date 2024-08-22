@@ -11,7 +11,7 @@ var maxProduct = function(nums) {
         const currMax = Math.max(prevMax * nums[i], nums[i], prevMin * nums[i])
         const currMin = Math.min(prevMax * nums[i], nums[i], prevMin * nums[i])
 
-        prevMax = currMax
+        prevMax = currMax // calculate then update prevMax
         prevMin = currMin
 
         max = Math.max(max, prevMax)
