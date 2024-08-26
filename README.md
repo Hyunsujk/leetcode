@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/Hyunsujk/leetcode/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/Hyunsujk/leetcode/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/Hyunsujk/leetcode/tree/master/0053-maximum-subarray) |
+| [0054-spiral-matrix](https://github.com/Hyunsujk/leetcode/tree/master/0054-spiral-matrix) |
 | [0056-merge-intervals](https://github.com/Hyunsujk/leetcode/tree/master/0056-merge-intervals) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Hyunsujk/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/Hyunsujk/leetcode/tree/master/0128-longest-consecutive-sequence) |
@@ -231,9 +232,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/Hyunsujk/leetcode/tree/master/0048-rotate-image) |
+| [0054-spiral-matrix](https://github.com/Hyunsujk/leetcode/tree/master/0054-spiral-matrix) |
 | [0417-pacific-atlantic-water-flow](https://github.com/Hyunsujk/leetcode/tree/master/0417-pacific-atlantic-water-flow) |
 ## Backtracking
 |  |
 | ------- |
 | [0039-combination-sum](https://github.com/Hyunsujk/leetcode/tree/master/0039-combination-sum) |
+## Simulation
+|  |
+| ------- |
+| [0054-spiral-matrix](https://github.com/Hyunsujk/leetcode/tree/master/0054-spiral-matrix) |
 <!---LeetCode Topics End-->
