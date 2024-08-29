@@ -3,14 +3,12 @@
  * @return {number}
  */
 var rob = function(nums) {
-    let rob1 = 0
-    let rob2 = 0
+    const dp = new Array(nums.length).fill(0)
+    dp[0] = nums[0]
+    dp[1] = Math.max(nums[0], nums[1])
 
-    // rob1, rob2, num
-    for(const num of nums){
-        const curr = Math.max(num + rob1, rob2)
-        rob1 = rob2
-        rob2 = curr
+    for(let i= 2; i<nums.length; i++){
+        dp[i] = Math.max(nums[i] + dp[i - 2], dp[i - 1])
     }
-    return rob2
+    return dp[nums.length - 1]
 };
