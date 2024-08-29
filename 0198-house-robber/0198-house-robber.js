@@ -4,7 +4,6 @@
  */
 var rob = function(nums) {
     const dp = new Array(nums.length).fill(0)
-
     dp[0] = nums[0]
     dp[1] = Math.max(nums[0], nums[1])
 
