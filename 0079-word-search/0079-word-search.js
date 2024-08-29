@@ -30,8 +30,10 @@ var exist = function(board, word) {
 
     for(let r = 0; r < rows; r++){
         for(let c = 0; c < cols; c++){
-            if(helper(r, c, 0)){
-                return true
+            if(board[r][c] === word[0]){
+                if(helper(r, c, 0)){
+                    return true
+                }
             }
         }
     }
