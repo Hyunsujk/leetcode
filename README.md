@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0056-merge-intervals](https://github.com/Hyunsujk/leetcode/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/Hyunsujk/leetcode/tree/master/0057-insert-interval) |
 | [0073-set-matrix-zeroes](https://github.com/Hyunsujk/leetcode/tree/master/0073-set-matrix-zeroes) |
+| [0079-word-search](https://github.com/Hyunsujk/leetcode/tree/master/0079-word-search) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Hyunsujk/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/Hyunsujk/leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0139-word-break](https://github.com/Hyunsujk/leetcode/tree/master/0139-word-break) |
@@ -65,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0005-longest-palindromic-substring](https://github.com/Hyunsujk/leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0020-valid-parentheses](https://github.com/Hyunsujk/leetcode/tree/master/0020-valid-parentheses) |
 | [0049-group-anagrams](https://github.com/Hyunsujk/leetcode/tree/master/0049-group-anagrams) |
+| [0079-word-search](https://github.com/Hyunsujk/leetcode/tree/master/0079-word-search) |
 | [0125-valid-palindrome](https://github.com/Hyunsujk/leetcode/tree/master/0125-valid-palindrome) |
 | [0139-word-break](https://github.com/Hyunsujk/leetcode/tree/master/0139-word-break) |
 | [0242-valid-anagram](https://github.com/Hyunsujk/leetcode/tree/master/0242-valid-anagram) |
@@ -259,12 +261,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/Hyunsujk/leetcode/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/Hyunsujk/leetcode/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/Hyunsujk/leetcode/tree/master/0073-set-matrix-zeroes) |
+| [0079-word-search](https://github.com/Hyunsujk/leetcode/tree/master/0079-word-search) |
 | [0200-number-of-islands](https://github.com/Hyunsujk/leetcode/tree/master/0200-number-of-islands) |
 | [0417-pacific-atlantic-water-flow](https://github.com/Hyunsujk/leetcode/tree/master/0417-pacific-atlantic-water-flow) |
 ## Backtracking
 |  |
 | ------- |
 | [0039-combination-sum](https://github.com/Hyunsujk/leetcode/tree/master/0039-combination-sum) |
+| [0079-word-search](https://github.com/Hyunsujk/leetcode/tree/master/0079-word-search) |
 ## Simulation
 |  |
 | ------- |
