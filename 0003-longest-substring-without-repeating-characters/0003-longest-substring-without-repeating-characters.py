@@ -9,4 +9,4 @@ class Solution:
                 left += 1
             seen.add(s[right])
             length = max(length, right - left + 1)
-        return length            
+        return length
