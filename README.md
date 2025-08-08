@@ -129,6 +129,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/Hyunsujk/leetcode/tree/master/0079-word-search) |
 | [0100-same-tree](https://github.com/Hyunsujk/leetcode/tree/master/0100-same-tree) |
 | [0133-clone-graph](https://github.com/Hyunsujk/leetcode/tree/master/0133-clone-graph) |
 | [0200-number-of-islands](https://github.com/Hyunsujk/leetcode/tree/master/0200-number-of-islands) |
