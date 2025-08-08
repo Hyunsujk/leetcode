@@ -5,9 +5,8 @@ class Solution:
 
         for i in range(rows):
             for j in range(cols):
-                if board[i][j] == word[0]:
-                    if self.find_string(i, j, board, word, 0):
-                        return True
+                if board[i][j] == word[0] and self.find_string(i, j, board, word, 0):
+                    return True
         
         return False
     
@@ -31,5 +30,5 @@ class Solution:
         )
 
         board[row][col] = temp
-        
+
         return found
