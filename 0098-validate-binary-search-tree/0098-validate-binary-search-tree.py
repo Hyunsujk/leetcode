@@ -12,8 +12,8 @@ class Solution:
         def dfs(node, left_bound, right_bound):
             if node is None:
                 return True
-            if (left_bound < node.val) and (node.val < right_bound) and dfs(node.left, left_bound, node.val) and dfs(node.right, node.val, right_bound): 
-                return True
+            if (left_bound < node.val) and (node.val < right_bound):
+                return dfs(node.left, left_bound, node.val) and dfs(node.right, node.val, right_bound)
             else:
                 return False
         
