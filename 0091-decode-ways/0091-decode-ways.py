@@ -1,8 +1,8 @@
 class Solution:
     def numDecodings(self, s: str) -> int:
-        if s[0] == "0" or s == "":
+        if s[0] == "0":
             return 0
-
+            
         n = len(s)
         dp = [0] * (n+1)
         dp[0] = 1
@@ -17,9 +17,5 @@ class Solution:
             
             if 10 <= two_d <= 26:
                 dp[i] += dp[i-2]
-        
+
         return dp[n]
-
-
-        
-        
