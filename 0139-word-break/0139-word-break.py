@@ -11,5 +11,6 @@ class Solution:
             for l in word_lengths:
                 if l <= i and dp[i-l] and s[i-l:i] in word_set:
                     dp[i] = True
+                    break
         
         return dp[n]
