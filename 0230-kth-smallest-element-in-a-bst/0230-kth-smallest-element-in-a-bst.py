@@ -11,7 +11,7 @@ class Solution:
         def inorder(node):
             if not node:
                 return None
-            
+
             left = inorder(node.left)
             if left is not None:
                 return left
@@ -23,3 +23,4 @@ class Solution:
             return inorder(node.right)
         
         return inorder(root)
+        
