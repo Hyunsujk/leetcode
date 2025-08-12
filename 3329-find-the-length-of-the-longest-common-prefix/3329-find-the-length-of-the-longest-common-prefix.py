@@ -3,21 +3,17 @@ class Solution:
         arr1_prefix = set(arr1)
 
         for n in arr1:
-            base = 10
             while n:
-                n = n // base
                 arr1_prefix.add(n)
+                n = n // 10
             
         longest_prefix = 0
         for n in set(arr2):
-            if n in arr1_prefix:
-                longest_prefix = max(longest_prefix, n)
             while n:
-                n = n // 10
                 if n in arr1_prefix:
                     longest_prefix = max(longest_prefix, n)
+                n = n // 10
 
-        
         return len(str(longest_prefix)) if longest_prefix != 0 else 0
 
 
