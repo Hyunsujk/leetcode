@@ -5,6 +5,9 @@ class Solution:
             h = int(t[0:2])
             m = int(t[3:5])
             minList.append(h*60 + m)
+
+        if len(set(minList)) < len(minList):
+            return 0
         
         minList.sort()
         minDiff = float("inf")
