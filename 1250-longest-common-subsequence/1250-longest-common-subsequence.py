@@ -10,23 +10,8 @@ class Solution:
                     dp[r][c] = dp[r-1][c-1] + 1
                 else:
                     dp[r][c] = max(dp[r-1][c], dp[r][c-1])
-        
-        r = rows
-        c = cols
-        count = 0
-
-        while r > 0 and c > 0:
-            if dp[r-1][c] == dp[r][c-1] and dp[r][c] != dp[r-1][c-1]:
-                count += 1
-                r -= 1
-                c -= 1
-            else:
-                if dp[r-1][c] > dp[r][c-1]:
-                    r -= 1
-                else:
-                    c -= 1
             
-        return count
+        return dp[-1][-1]
 
         
       
