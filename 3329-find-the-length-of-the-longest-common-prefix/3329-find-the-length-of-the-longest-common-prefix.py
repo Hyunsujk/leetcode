@@ -7,13 +7,13 @@ class Solution:
                 arr1_prefix.add(n)
                 n = n // 10
         
-        longest_prefix = 0
+        longest_prefix_len = 0
         for n in set(arr2):
             while n:
                 if n in arr1_prefix:
-                    longest_prefix = max(longest_prefix, n)
+                    longest_prefix_len = max(longest_prefix_len, len(str(n)))
                     break
                 n = n // 10
         
-        return len(str(longest_prefix)) if longest_prefix != 0 else 0
+        return longest_prefix_len
         
