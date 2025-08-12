@@ -1,12 +1,13 @@
 class Solution:
     def findMinDifference(self, timePoints: List[str]) -> int:
-        ordered = [(int(t[0:2]), int(t[3:5])) for t in timePoints]
-        if len(set(ordered)) < len(ordered):
-            return 0
- 
-        ordered.sort(key = lambda x: (x[0], x[1]))
+        minList = []
+        for t in timePoints:
+            h = int(t[0:2])
+            m = int(t[3:5])
+            minList.append(h*60 + m)
+        
+        minList.sort()
         minDiff = float("inf")
-        minList = [ h*60 + m for (h,m) in ordered]
 
         for i in range(1, len(minList)):
             minDiff = min(minDiff, minList[i] - minList[i-1])
