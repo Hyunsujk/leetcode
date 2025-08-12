@@ -11,8 +11,8 @@ class Bank:
         if self.balance[account1 - 1] < money:
             return False
         else:
-            self.balance[account1 - 1] -= money
-            self.balance[account2 - 1] += money
+            self.withdraw(account1, money)
+            self.deposit(account2, money)
             return True
         
 
