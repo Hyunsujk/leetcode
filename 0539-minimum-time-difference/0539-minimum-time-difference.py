@@ -1,8 +1,7 @@
 class Solution:
     def findMinDifference(self, timePoints: List[str]) -> int:
         ordered = [(int(t[0:2]), int(t[3:5])) for t in timePoints]
-        noDups = set(ordered)
-        if len(noDups) < len(ordered):
+        if len(set(ordered)) < len(ordered):
             return 0
  
         ordered.sort(key = lambda x: (x[0], x[1]))
