@@ -22,13 +22,13 @@ class Solution:
                 board[r][c] = 0
 
             for c in range(cols):
-                lowestZero = -1
+                lowestZero = rows - 1
                 for r in range(rows-1, -1, -1):
-                    if board[r][c] == 0:
-                        lowestZero = max(lowestZero, r)
-                    elif lowestZero >= 0:
-                        board[lowestZero][c], board[r][c] = board[r][c], board[lowestZero][c]
+                    if board[r][c] != 0:
+                        board[r][c], board[lowestZero][c] = board[lowestZero][c], board[r][c]
                         lowestZero -= 1
+                for r in range(lowestZero, -1, -1):
+                    board[r][c] = 0
         
         return board
         
