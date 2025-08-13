@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0539-minimum-time-difference](https://github.com/Hyunsujk/leetcode/tree/master/0539-minimum-time-difference) |
 | [0723-candy-crush](https://github.com/Hyunsujk/leetcode/tree/master/0723-candy-crush) |
 | [2169-simple-bank-system](https://github.com/Hyunsujk/leetcode/tree/master/2169-simple-bank-system) |
+| [3269-number-of-subarrays-that-match-a-pattern-i](https://github.com/Hyunsujk/leetcode/tree/master/3269-number-of-subarrays-that-match-a-pattern-i) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Hyunsujk/leetcode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 ## Hash Table
 |  |
@@ -288,6 +289,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0572-subtree-of-another-tree](https://github.com/Hyunsujk/leetcode/tree/master/0572-subtree-of-another-tree) |
+| [3269-number-of-subarrays-that-match-a-pattern-i](https://github.com/Hyunsujk/leetcode/tree/master/3269-number-of-subarrays-that-match-a-pattern-i) |
 ## Binary Tree
 |  |
 | ------- |
@@ -302,6 +304,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0572-subtree-of-another-tree](https://github.com/Hyunsujk/leetcode/tree/master/0572-subtree-of-another-tree) |
+| [3269-number-of-subarrays-that-match-a-pattern-i](https://github.com/Hyunsujk/leetcode/tree/master/3269-number-of-subarrays-that-match-a-pattern-i) |
 ## Matrix
 |  |
 | ------- |
@@ -341,4 +344,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/Hyunsujk/leetcode/tree/master/0238-product-of-array-except-self) |
+## Rolling Hash
+|  |
+| ------- |
+| [3269-number-of-subarrays-that-match-a-pattern-i](https://github.com/Hyunsujk/leetcode/tree/master/3269-number-of-subarrays-that-match-a-pattern-i) |
 <!---LeetCode Topics End-->
