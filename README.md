@@ -41,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0417-pacific-atlantic-water-flow](https://github.com/Hyunsujk/leetcode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0435-non-overlapping-intervals](https://github.com/Hyunsujk/leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0539-minimum-time-difference](https://github.com/Hyunsujk/leetcode/tree/master/0539-minimum-time-difference) |
+| [0723-candy-crush](https://github.com/Hyunsujk/leetcode/tree/master/0723-candy-crush) |
 | [2169-simple-bank-system](https://github.com/Hyunsujk/leetcode/tree/master/2169-simple-bank-system) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Hyunsujk/leetcode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 ## Hash Table
@@ -124,6 +125,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0141-linked-list-cycle](https://github.com/Hyunsujk/leetcode/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/Hyunsujk/leetcode/tree/master/0143-reorder-list) |
 | [0647-palindromic-substrings](https://github.com/Hyunsujk/leetcode/tree/master/0647-palindromic-substrings) |
+| [0723-candy-crush](https://github.com/Hyunsujk/leetcode/tree/master/0723-candy-crush) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -309,6 +311,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/Hyunsujk/leetcode/tree/master/0079-word-search) |
 | [0200-number-of-islands](https://github.com/Hyunsujk/leetcode/tree/master/0200-number-of-islands) |
 | [0417-pacific-atlantic-water-flow](https://github.com/Hyunsujk/leetcode/tree/master/0417-pacific-atlantic-water-flow) |
+| [0723-candy-crush](https://github.com/Hyunsujk/leetcode/tree/master/0723-candy-crush) |
 ## Backtracking
 |  |
 | ------- |
@@ -318,6 +321,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/Hyunsujk/leetcode/tree/master/0054-spiral-matrix) |
+| [0723-candy-crush](https://github.com/Hyunsujk/leetcode/tree/master/0723-candy-crush) |
 | [2169-simple-bank-system](https://github.com/Hyunsujk/leetcode/tree/master/2169-simple-bank-system) |
 ## Combinatorics
 |  |
