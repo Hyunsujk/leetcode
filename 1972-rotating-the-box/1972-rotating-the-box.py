@@ -16,6 +16,6 @@ class Solution:
 
         for r in range(rows):
             for c in range(cols):
-                output[c][rows-r-1] = boxGrid[r][c]
+                output[c][rows-1-r] = boxGrid[r][c]
         
         return output
