@@ -1,22 +1,18 @@
 class Solution:
     def countMatchingSubarrays(self, nums: List[int], pattern: List[int]) -> int:
-        nl = len(nums)
-        pl = len(pattern)
+        numPattern = []
 
-        def matches(start):
-            for i in range(pl):
-                if pattern[i] == 1 and nums[start+i+1] <= nums[start+i]:
-                    return False
-                if pattern[i] == 0 and nums[start+i+1] != nums[start+i]:
-                    return False
-                if pattern[i] == -1 and nums[start+i+1] >= nums[start+i]:
-                    return False
-            return True
+        for i in range(1, len(nums)):
+            if nums[i] > nums[i-1]:
+                numPattern.append(1)
+            if nums[i] == nums[i-1]:
+                numPattern.append(0)
+            if nums[i] < nums[i-1]:
+                numPattern.append(-1)
 
         count = 0
-        for i in range(nl-pl):
-            if matches(i):
+        for start in range(len(numPattern) - len(pattern) + 1):
+            if numPattern[start: start+len(pattern)] == pattern:
                 count += 1
         
         return count
-        
