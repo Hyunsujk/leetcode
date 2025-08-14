@@ -81,6 +81,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0005-longest-palindromic-substring](https://github.com/Hyunsujk/leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0020-valid-parentheses](https://github.com/Hyunsujk/leetcode/tree/master/0020-valid-parentheses) |
 | [0049-group-anagrams](https://github.com/Hyunsujk/leetcode/tree/master/0049-group-anagrams) |
+| [0071-simplify-path](https://github.com/Hyunsujk/leetcode/tree/master/0071-simplify-path) |
 | [0076-minimum-window-substring](https://github.com/Hyunsujk/leetcode/tree/master/0076-minimum-window-substring) |
 | [0079-word-search](https://github.com/Hyunsujk/leetcode/tree/master/0079-word-search) |
 | [0091-decode-ways](https://github.com/Hyunsujk/leetcode/tree/master/0091-decode-ways) |
@@ -244,6 +245,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/Hyunsujk/leetcode/tree/master/0020-valid-parentheses) |
+| [0071-simplify-path](https://github.com/Hyunsujk/leetcode/tree/master/0071-simplify-path) |
 | [0143-reorder-list](https://github.com/Hyunsujk/leetcode/tree/master/0143-reorder-list) |
 ## Recursion
 |  |
