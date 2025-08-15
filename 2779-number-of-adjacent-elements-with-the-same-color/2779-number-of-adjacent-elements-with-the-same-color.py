@@ -17,11 +17,11 @@ class Solution:
             
             colors[i] = color
 
-            if color != 0:
-                if i-1 >= 0 and colors[i-1] == color:
-                    adjacent += 1
-                if i+1 < n and colors[i+1] == color:
-                    adjacent += 1
+    
+            if i-1 >= 0 and colors[i-1] == color:
+                adjacent += 1
+            if i+1 < n and colors[i+1] == color:
+                adjacent += 1
             answer.append(adjacent)
         
         return answer
