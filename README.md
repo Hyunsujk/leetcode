@@ -42,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0435-non-overlapping-intervals](https://github.com/Hyunsujk/leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0539-minimum-time-difference](https://github.com/Hyunsujk/leetcode/tree/master/0539-minimum-time-difference) |
 | [0723-candy-crush](https://github.com/Hyunsujk/leetcode/tree/master/0723-candy-crush) |
+| [1866-restore-the-array-from-adjacent-pairs](https://github.com/Hyunsujk/leetcode/tree/master/1866-restore-the-array-from-adjacent-pairs) |
 | [1972-rotating-the-box](https://github.com/Hyunsujk/leetcode/tree/master/1972-rotating-the-box) |
 | [2169-simple-bank-system](https://github.com/Hyunsujk/leetcode/tree/master/2169-simple-bank-system) |
 | [2779-number-of-adjacent-elements-with-the-same-color](https://github.com/Hyunsujk/leetcode/tree/master/2779-number-of-adjacent-elements-with-the-same-color) |
@@ -67,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/Hyunsujk/leetcode/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/Hyunsujk/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0424-longest-repeating-character-replacement](https://github.com/Hyunsujk/leetcode/tree/master/0424-longest-repeating-character-replacement) |
+| [1866-restore-the-array-from-adjacent-pairs](https://github.com/Hyunsujk/leetcode/tree/master/1866-restore-the-array-from-adjacent-pairs) |
 | [2169-simple-bank-system](https://github.com/Hyunsujk/leetcode/tree/master/2169-simple-bank-system) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Hyunsujk/leetcode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 ## Union Find
@@ -169,6 +171,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/Hyunsujk/leetcode/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0417-pacific-atlantic-water-flow](https://github.com/Hyunsujk/leetcode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0572-subtree-of-another-tree](https://github.com/Hyunsujk/leetcode/tree/master/0572-subtree-of-another-tree) |
+| [1866-restore-the-array-from-adjacent-pairs](https://github.com/Hyunsujk/leetcode/tree/master/1866-restore-the-array-from-adjacent-pairs) |
 ## Breadth-First Search
 |  |
 | ------- |
