@@ -8,17 +8,14 @@ class Solution:
         
         head = next(k for [k, v] in adjList.items() if len(v) == 1)
 
-        res = [head]
-        visited = set([head])
-
-        while len(res) < len(adjList):
-            last = res[-1]
-            for neigh in adjList[last]:
-                if neigh not in visited:
-                    res.append(neigh)
-                    visited.add(neigh)
-                    break
-
+        res = []
+        def dfs(node, prev):
+            res.append(node)
+            for neigh in adjList[node]:
+                if neigh != prev:
+                    dfs(neigh, node)
+        
+        dfs(head, None)
         return res
 
 
