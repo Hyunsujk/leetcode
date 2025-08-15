@@ -12,7 +12,7 @@ class Solution:
             if node:
                 path.append(node.val)
                 if not node.left and not node.right:
-                    p = "->".join(map(str,path))
+                    p = "->".join(map(str, path))
                     paths.append(p)
                 else:
                     dfs(node.left, path)
@@ -21,4 +21,5 @@ class Solution:
         
         dfs(root, [])
         return paths
+                
         
