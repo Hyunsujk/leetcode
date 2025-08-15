@@ -59,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0133-clone-graph](https://github.com/Hyunsujk/leetcode/tree/master/0133-clone-graph) |
 | [0139-word-break](https://github.com/Hyunsujk/leetcode/tree/master/0139-word-break) |
 | [0141-linked-list-cycle](https://github.com/Hyunsujk/leetcode/tree/master/0141-linked-list-cycle) |
+| [0146-lru-cache](https://github.com/Hyunsujk/leetcode/tree/master/0146-lru-cache) |
 | [0208-implement-trie-prefix-tree](https://github.com/Hyunsujk/leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0217-contains-duplicate](https://github.com/Hyunsujk/leetcode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/Hyunsujk/leetcode/tree/master/0242-valid-anagram) |
@@ -226,6 +227,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0023-merge-k-sorted-lists](https://github.com/Hyunsujk/leetcode/tree/master/0023-merge-k-sorted-lists) |
 | [0141-linked-list-cycle](https://github.com/Hyunsujk/leetcode/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/Hyunsujk/leetcode/tree/master/0143-reorder-list) |
+| [0146-lru-cache](https://github.com/Hyunsujk/leetcode/tree/master/0146-lru-cache) |
 | [0206-reverse-linked-list](https://github.com/Hyunsujk/leetcode/tree/master/0206-reverse-linked-list) |
 ## Math
 |  |
@@ -260,6 +262,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/Hyunsujk/leetcode/tree/master/0146-lru-cache) |
 | [0208-implement-trie-prefix-tree](https://github.com/Hyunsujk/leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0271-encode-and-decode-strings](https://github.com/Hyunsujk/leetcode/tree/master/0271-encode-and-decode-strings) |
 | [2169-simple-bank-system](https://github.com/Hyunsujk/leetcode/tree/master/2169-simple-bank-system) |
@@ -361,4 +364,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3269-number-of-subarrays-that-match-a-pattern-i](https://github.com/Hyunsujk/leetcode/tree/master/3269-number-of-subarrays-that-match-a-pattern-i) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/Hyunsujk/leetcode/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
