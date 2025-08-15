@@ -17,6 +17,7 @@ class Solution:
                 if neigh not in visited:
                     res.append(neigh)
                     visited.add(neigh)
+                    break
 
         return res
 
