@@ -240,6 +240,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0371-sum-of-two-integers](https://github.com/Hyunsujk/leetcode/tree/master/0371-sum-of-two-integers) |
 | [0539-minimum-time-difference](https://github.com/Hyunsujk/leetcode/tree/master/0539-minimum-time-difference) |
 | [1013-fibonacci-number](https://github.com/Hyunsujk/leetcode/tree/master/1013-fibonacci-number) |
+| [2288-count-operations-to-obtain-zero](https://github.com/Hyunsujk/leetcode/tree/master/2288-count-operations-to-obtain-zero) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -342,6 +343,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0054-spiral-matrix](https://github.com/Hyunsujk/leetcode/tree/master/0054-spiral-matrix) |
 | [0723-candy-crush](https://github.com/Hyunsujk/leetcode/tree/master/0723-candy-crush) |
 | [2169-simple-bank-system](https://github.com/Hyunsujk/leetcode/tree/master/2169-simple-bank-system) |
+| [2288-count-operations-to-obtain-zero](https://github.com/Hyunsujk/leetcode/tree/master/2288-count-operations-to-obtain-zero) |
 ## Combinatorics
 |  |
 | ------- |
