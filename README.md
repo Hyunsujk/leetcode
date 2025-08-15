@@ -46,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1972-rotating-the-box](https://github.com/Hyunsujk/leetcode/tree/master/1972-rotating-the-box) |
 | [2169-simple-bank-system](https://github.com/Hyunsujk/leetcode/tree/master/2169-simple-bank-system) |
 | [2779-number-of-adjacent-elements-with-the-same-color](https://github.com/Hyunsujk/leetcode/tree/master/2779-number-of-adjacent-elements-with-the-same-color) |
+| [2889-number-of-black-blocks](https://github.com/Hyunsujk/leetcode/tree/master/2889-number-of-black-blocks) |
 | [3269-number-of-subarrays-that-match-a-pattern-i](https://github.com/Hyunsujk/leetcode/tree/master/3269-number-of-subarrays-that-match-a-pattern-i) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Hyunsujk/leetcode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 ## Hash Table
@@ -70,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0424-longest-repeating-character-replacement](https://github.com/Hyunsujk/leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [1866-restore-the-array-from-adjacent-pairs](https://github.com/Hyunsujk/leetcode/tree/master/1866-restore-the-array-from-adjacent-pairs) |
 | [2169-simple-bank-system](https://github.com/Hyunsujk/leetcode/tree/master/2169-simple-bank-system) |
+| [2889-number-of-black-blocks](https://github.com/Hyunsujk/leetcode/tree/master/2889-number-of-black-blocks) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Hyunsujk/leetcode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 ## Union Find
 |  |
@@ -374,4 +376,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/Hyunsujk/leetcode/tree/master/0146-lru-cache) |
+## Enumeration
+|  |
+| ------- |
+| [2889-number-of-black-blocks](https://github.com/Hyunsujk/leetcode/tree/master/2889-number-of-black-blocks) |
 <!---LeetCode Topics End-->
