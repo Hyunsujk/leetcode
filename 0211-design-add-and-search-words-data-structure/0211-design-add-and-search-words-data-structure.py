@@ -9,7 +9,6 @@ class WordDictionary:
     def __init__(self):
         self.root = TrieNode()
         
-
     def addWord(self, word: str) -> None:
         node = self.root
         for char in word:
@@ -20,14 +19,16 @@ class WordDictionary:
                 node.children[char] = new_node
                 node = new_node
         node.is_end = True
-        
 
     def search(self, word: str) -> bool:
         def dfs(node, i):
             if i == len(word):
                 return node.is_end
             if word[i] == ".":
-                return any(dfs(child, i+1) for child in node.children.values())
+                for child in node.children.values():
+                    if dfs(child, i+1):
+                        return True
+                return False
             if word[i] not in node.children:
                 return False
             return dfs(node.children[word[i]], i+1)
