@@ -4,7 +4,6 @@ class TrieNode:
         self.children = {}
         self.is_end = False
 
-
 class WordDictionary:
 
     def __init__(self):
@@ -28,19 +27,12 @@ class WordDictionary:
             if i == len(word):
                 return node.is_end
             if word[i] == ".":
-                for child in node.children.values():
-                    if dfs(child, i+1):
-                        return True
+                return any(dfs(child, i+1) for child in node.children.values())
+            if word[i] not in node.children:
                 return False
-            else:
-                if word[i] not in node.children:
-                    return False
-                return dfs(node.children[word[i]], i+1)
-
+            return dfs(node.children[word[i]], i+1)
         
         return dfs(self.root, 0)
-
-
         
 
 
