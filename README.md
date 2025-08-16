@@ -48,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2779-number-of-adjacent-elements-with-the-same-color](https://github.com/Hyunsujk/leetcode/tree/master/2779-number-of-adjacent-elements-with-the-same-color) |
 | [2889-number-of-black-blocks](https://github.com/Hyunsujk/leetcode/tree/master/2889-number-of-black-blocks) |
 | [3269-number-of-subarrays-that-match-a-pattern-i](https://github.com/Hyunsujk/leetcode/tree/master/3269-number-of-subarrays-that-match-a-pattern-i) |
+| [3309-count-prefix-and-suffix-pairs-i](https://github.com/Hyunsujk/leetcode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Hyunsujk/leetcode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3335-minimum-operations-to-write-the-letter-y-on-a-grid](https://github.com/Hyunsujk/leetcode/tree/master/3335-minimum-operations-to-write-the-letter-y-on-a-grid) |
 ## Hash Table
@@ -104,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0539-minimum-time-difference](https://github.com/Hyunsujk/leetcode/tree/master/0539-minimum-time-difference) |
 | [0647-palindromic-substrings](https://github.com/Hyunsujk/leetcode/tree/master/0647-palindromic-substrings) |
 | [1250-longest-common-subsequence](https://github.com/Hyunsujk/leetcode/tree/master/1250-longest-common-subsequence) |
+| [3309-count-prefix-and-suffix-pairs-i](https://github.com/Hyunsujk/leetcode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Hyunsujk/leetcode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 ## Sliding Window
 |  |
@@ -222,6 +224,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0139-word-break](https://github.com/Hyunsujk/leetcode/tree/master/0139-word-break) |
 | [0208-implement-trie-prefix-tree](https://github.com/Hyunsujk/leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/Hyunsujk/leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
+| [3309-count-prefix-and-suffix-pairs-i](https://github.com/Hyunsujk/leetcode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Hyunsujk/leetcode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 ## Memoization
 |  |
@@ -317,6 +320,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0572-subtree-of-another-tree](https://github.com/Hyunsujk/leetcode/tree/master/0572-subtree-of-another-tree) |
 | [3269-number-of-subarrays-that-match-a-pattern-i](https://github.com/Hyunsujk/leetcode/tree/master/3269-number-of-subarrays-that-match-a-pattern-i) |
+| [3309-count-prefix-and-suffix-pairs-i](https://github.com/Hyunsujk/leetcode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 ## Binary Tree
 |  |
 | ------- |
@@ -333,6 +337,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0572-subtree-of-another-tree](https://github.com/Hyunsujk/leetcode/tree/master/0572-subtree-of-another-tree) |
 | [3269-number-of-subarrays-that-match-a-pattern-i](https://github.com/Hyunsujk/leetcode/tree/master/3269-number-of-subarrays-that-match-a-pattern-i) |
+| [3309-count-prefix-and-suffix-pairs-i](https://github.com/Hyunsujk/leetcode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 ## Matrix
 |  |
 | ------- |
@@ -380,6 +385,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3269-number-of-subarrays-that-match-a-pattern-i](https://github.com/Hyunsujk/leetcode/tree/master/3269-number-of-subarrays-that-match-a-pattern-i) |
+| [3309-count-prefix-and-suffix-pairs-i](https://github.com/Hyunsujk/leetcode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 ## Doubly-Linked List
 |  |
 | ------- |
