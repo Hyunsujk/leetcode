@@ -96,6 +96,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0125-valid-palindrome](https://github.com/Hyunsujk/leetcode/tree/master/0125-valid-palindrome) |
 | [0139-word-break](https://github.com/Hyunsujk/leetcode/tree/master/0139-word-break) |
 | [0208-implement-trie-prefix-tree](https://github.com/Hyunsujk/leetcode/tree/master/0208-implement-trie-prefix-tree) |
+| [0211-design-add-and-search-words-data-structure](https://github.com/Hyunsujk/leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0242-valid-anagram](https://github.com/Hyunsujk/leetcode/tree/master/0242-valid-anagram) |
 | [0257-binary-tree-paths](https://github.com/Hyunsujk/leetcode/tree/master/0257-binary-tree-paths) |
 | [0271-encode-and-decode-strings](https://github.com/Hyunsujk/leetcode/tree/master/0271-encode-and-decode-strings) |
@@ -168,6 +169,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0133-clone-graph](https://github.com/Hyunsujk/leetcode/tree/master/0133-clone-graph) |
 | [0200-number-of-islands](https://github.com/Hyunsujk/leetcode/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/Hyunsujk/leetcode/tree/master/0207-course-schedule) |
+| [0211-design-add-and-search-words-data-structure](https://github.com/Hyunsujk/leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/Hyunsujk/leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/Hyunsujk/leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0257-binary-tree-paths](https://github.com/Hyunsujk/leetcode/tree/master/0257-binary-tree-paths) |
@@ -219,6 +221,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0139-word-break](https://github.com/Hyunsujk/leetcode/tree/master/0139-word-break) |
 | [0208-implement-trie-prefix-tree](https://github.com/Hyunsujk/leetcode/tree/master/0208-implement-trie-prefix-tree) |
+| [0211-design-add-and-search-words-data-structure](https://github.com/Hyunsujk/leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Hyunsujk/leetcode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 ## Memoization
 |  |
@@ -273,6 +276,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0146-lru-cache](https://github.com/Hyunsujk/leetcode/tree/master/0146-lru-cache) |
 | [0208-implement-trie-prefix-tree](https://github.com/Hyunsujk/leetcode/tree/master/0208-implement-trie-prefix-tree) |
+| [0211-design-add-and-search-words-data-structure](https://github.com/Hyunsujk/leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0271-encode-and-decode-strings](https://github.com/Hyunsujk/leetcode/tree/master/0271-encode-and-decode-strings) |
 | [2169-simple-bank-system](https://github.com/Hyunsujk/leetcode/tree/master/2169-simple-bank-system) |
 ## Heap (Priority Queue)
