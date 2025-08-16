@@ -4,11 +4,6 @@ class TrieNode:
         self.children = {}
         self.is_end = False
 
-    def get(self, char):
-        if char in self.children:
-            return self.children[char]
-        return None
-
 class Trie:
 
     def __init__(self):
@@ -21,29 +16,27 @@ class Trie:
             if char in node.children:
                 node = node.children[char]
             else:
-                node.children[char] = TrieNode(char)
-                node = node.get(char)
+                new_node = TrieNode(char)
+                node.children[char] = new_node
+                node = new_node
         node.is_end = True
-
         
 
     def search(self, word: str) -> bool:
         node = self.root
         for char in word:
-            if char in node.children:
-                node = node.children[char]
-            else:
+            if char not in node.children:
                 return False
+            node = node.children[char]
         return node.is_end
         
 
     def startsWith(self, prefix: str) -> bool:
         node = self.root
         for char in prefix:
-            if char in node.children:
-                node = node.children[char]
-            else:
+            if char not in node.children:
                 return False
+            node = node.children[char]
         return True
         
 
