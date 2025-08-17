@@ -1,43 +1,25 @@
-class TrieNode:
-    def __init__(self):
-        self.children = {}
-        self.ending_word = ""
-
-class Trie:
-    def __init__(self):
-        self.root = TrieNode()
-    
-    def matches(self, word, reverse = False):
-        matches = set()
-        node = self.root
-        for char in word:
-            if char not in node.children:
-                node.children[char] = TrieNode()
-            node = node.children[char]
-            if node.ending_word:
-                matches.add(node.ending_word)
-        node.ending_word = word[::-1] if reverse else word
-        return matches
-
-
 class Solution:
     def countPrefixSuffixPairs(self, words: List[str]) -> int:
-        prefixT = Trie()
-        suffixT = Trie()
+        seen_count = defaultdict(int)
+        seen_count[words[0]] = 1
+        prev_lengths = set([len(words[0])])
 
-        count = defaultdict(int)
         total = 0
 
-        for word in words:
-            prefixes = prefixT.matches(word)
-            reversedWord = word[::-1]
-            suffixes = suffixT.matches(reversedWord, True)
-            for p in prefixes:
-                if p in suffixes:
-                    total += count[p]
-            count[word] += 1
-        
+        for i in range(1, len(words)):
+            word = words[i]
+            curr_length = len(word)
+
+            for prev_length in prev_lengths:
+                if prev_length > curr_length:
+                    continue
+                elif prev_length == curr_length:
+                    total += seen_count[word]
+                else:
+                    prefix = word[:prev_length]
+                    if prefix == word[curr_length - prev_length:]:
+                        total += seen_count[prefix]
+            prev_lengths.add(curr_length)
+            seen_count[word] += 1
         return total
-
-
-        
+                    
