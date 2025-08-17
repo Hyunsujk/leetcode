@@ -42,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0435-non-overlapping-intervals](https://github.com/Hyunsujk/leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0539-minimum-time-difference](https://github.com/Hyunsujk/leetcode/tree/master/0539-minimum-time-difference) |
 | [0723-candy-crush](https://github.com/Hyunsujk/leetcode/tree/master/0723-candy-crush) |
+| [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/Hyunsujk/leetcode/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [1866-restore-the-array-from-adjacent-pairs](https://github.com/Hyunsujk/leetcode/tree/master/1866-restore-the-array-from-adjacent-pairs) |
 | [1972-rotating-the-box](https://github.com/Hyunsujk/leetcode/tree/master/1972-rotating-the-box) |
 | [2169-simple-bank-system](https://github.com/Hyunsujk/leetcode/tree/master/2169-simple-bank-system) |
@@ -269,6 +270,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/Hyunsujk/leetcode/tree/master/0020-valid-parentheses) |
 | [0071-simplify-path](https://github.com/Hyunsujk/leetcode/tree/master/0071-simplify-path) |
 | [0143-reorder-list](https://github.com/Hyunsujk/leetcode/tree/master/0143-reorder-list) |
+| [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/Hyunsujk/leetcode/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 ## Recursion
 |  |
 | ------- |
@@ -400,4 +402,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2889-number-of-black-blocks](https://github.com/Hyunsujk/leetcode/tree/master/2889-number-of-black-blocks) |
+## Monotonic Stack
+|  |
+| ------- |
+| [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/Hyunsujk/leetcode/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 <!---LeetCode Topics End-->
