@@ -19,11 +19,8 @@ class Solution:
             node_val = total % 10
             curr.next = ListNode(node_val)
             curr = curr.next
-            if l1:
-                l1 = l1.next
-            if l2:
-                l2 = l2.next
-
+            l1 = l1.next if l1 else None
+            l2 = l2.next if l2 else None
+        
         return dummy.next
-
         
