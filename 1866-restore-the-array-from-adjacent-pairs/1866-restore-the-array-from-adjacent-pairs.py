@@ -2,24 +2,27 @@ class Solution:
     def restoreArray(self, adjacentPairs: List[List[int]]) -> List[int]:
         adjList = defaultdict(list)
         for pair in adjacentPairs:
-            one = pair[0]
-            two = pair[1]
-            adjList[one].append(two)
-            adjList[two].append(one)
-        
-        entry = next(k for k, v in adjList.items() if len(v) == 1)
+            adjList[pair[0]].append(pair[1])
+            adjList[pair[1]].append(pair[0])
 
         res = []
-        visited = set()
+        for k, v in adjList.items():
+            if len(v) == 1:
+                res.append(k)
+                res.append(v[0])
+                break
 
-        def dfs(node):
-            res.append(node)
-            visited.add(node)
-            for neigh in adjList[node]:
-                if neigh not in visited:
-                    return dfs(neigh)
+    
+        while len(res) <= len(adjacentPairs):
+            for neigh in adjList[res[-1]]:
+                if neigh != res[-2]:
+                    res.append(neigh)
+                    break
+
+
         
-        dfs(entry)
         return res
+
+
 
         
