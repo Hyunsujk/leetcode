@@ -3,12 +3,13 @@ class Solution:
         max_area = 0
         stack = []
 
-        for i, height in enumerate(chain([0],heights,[0])):
-            while stack and stack[-1][1] > height:
+        for i in range(len(heights)+1):
+            curr_height = heights[i] if i < len(heights) else 0
+            while stack and heights[stack[-1]] > curr_height:
                 rec_right = i
-                rec_height = stack.pop()[1]
-                rec_left = stack[-1][0]
+                rec_height = heights[stack.pop()]
+                rec_left = stack[-1] if stack else -1
                 area = (rec_right - rec_left - 1) * rec_height
                 max_area = max(max_area, area)
-            stack.append((i, height))
+            stack.append(i)
         return max_area
