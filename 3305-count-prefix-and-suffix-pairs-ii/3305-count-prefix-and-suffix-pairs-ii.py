@@ -28,7 +28,7 @@ class Solution:
         suffixT = Trie()
         total = 0
 
-        count = defaultdict(int)
+        seen_count = defaultdict(int)
         
         for word in words:
             prefixes = prefixT.match(word)
@@ -36,9 +36,9 @@ class Solution:
             suffixes = suffixT.match(reversedw, True)
             for p in prefixes:
                 if p in suffixes:
-                    total += count[p]
-            count[word] += 1
-            
+                    total += seen_count[p]
+            seen_count[word] += 1
+
         return total
 
 
