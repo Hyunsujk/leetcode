@@ -3,7 +3,7 @@ class Solution:
         left = 0
         right = 1
         stack = []
-        while right < len(path):
+        while right <= len(path):
             while right < len(path) and path[right] != "/":
                 right += 1
             
