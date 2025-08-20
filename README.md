@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0055-jump-game](https://github.com/Hyunsujk/leetcode/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/Hyunsujk/leetcode/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/Hyunsujk/leetcode/tree/master/0057-insert-interval) |
+| [0068-text-justification](https://github.com/Hyunsujk/leetcode/tree/master/0068-text-justification) |
 | [0073-set-matrix-zeroes](https://github.com/Hyunsujk/leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0079-word-search](https://github.com/Hyunsujk/leetcode/tree/master/0079-word-search) |
 | [0084-largest-rectangle-in-histogram](https://github.com/Hyunsujk/leetcode/tree/master/0084-largest-rectangle-in-histogram) |
@@ -93,6 +94,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0005-longest-palindromic-substring](https://github.com/Hyunsujk/leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0020-valid-parentheses](https://github.com/Hyunsujk/leetcode/tree/master/0020-valid-parentheses) |
 | [0049-group-anagrams](https://github.com/Hyunsujk/leetcode/tree/master/0049-group-anagrams) |
+| [0068-text-justification](https://github.com/Hyunsujk/leetcode/tree/master/0068-text-justification) |
 | [0071-simplify-path](https://github.com/Hyunsujk/leetcode/tree/master/0071-simplify-path) |
 | [0076-minimum-window-substring](https://github.com/Hyunsujk/leetcode/tree/master/0076-minimum-window-substring) |
 | [0079-word-search](https://github.com/Hyunsujk/leetcode/tree/master/0079-word-search) |
@@ -369,6 +371,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/Hyunsujk/leetcode/tree/master/0054-spiral-matrix) |
+| [0068-text-justification](https://github.com/Hyunsujk/leetcode/tree/master/0068-text-justification) |
 | [0723-candy-crush](https://github.com/Hyunsujk/leetcode/tree/master/0723-candy-crush) |
 | [2169-simple-bank-system](https://github.com/Hyunsujk/leetcode/tree/master/2169-simple-bank-system) |
 | [2288-count-operations-to-obtain-zero](https://github.com/Hyunsujk/leetcode/tree/master/2288-count-operations-to-obtain-zero) |
