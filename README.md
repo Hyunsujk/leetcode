@@ -44,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0435-non-overlapping-intervals](https://github.com/Hyunsujk/leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0539-minimum-time-difference](https://github.com/Hyunsujk/leetcode/tree/master/0539-minimum-time-difference) |
 | [0723-candy-crush](https://github.com/Hyunsujk/leetcode/tree/master/0723-candy-crush) |
+| [1034-subarrays-with-k-different-integers](https://github.com/Hyunsujk/leetcode/tree/master/1034-subarrays-with-k-different-integers) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/Hyunsujk/leetcode/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [1866-restore-the-array-from-adjacent-pairs](https://github.com/Hyunsujk/leetcode/tree/master/1866-restore-the-array-from-adjacent-pairs) |
 | [1972-rotating-the-box](https://github.com/Hyunsujk/leetcode/tree/master/1972-rotating-the-box) |
@@ -75,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/Hyunsujk/leetcode/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/Hyunsujk/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0424-longest-repeating-character-replacement](https://github.com/Hyunsujk/leetcode/tree/master/0424-longest-repeating-character-replacement) |
+| [1034-subarrays-with-k-different-integers](https://github.com/Hyunsujk/leetcode/tree/master/1034-subarrays-with-k-different-integers) |
 | [1866-restore-the-array-from-adjacent-pairs](https://github.com/Hyunsujk/leetcode/tree/master/1866-restore-the-array-from-adjacent-pairs) |
 | [2169-simple-bank-system](https://github.com/Hyunsujk/leetcode/tree/master/2169-simple-bank-system) |
 | [2889-number-of-black-blocks](https://github.com/Hyunsujk/leetcode/tree/master/2889-number-of-black-blocks) |
@@ -119,6 +121,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/Hyunsujk/leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0076-minimum-window-substring](https://github.com/Hyunsujk/leetcode/tree/master/0076-minimum-window-substring) |
 | [0424-longest-repeating-character-replacement](https://github.com/Hyunsujk/leetcode/tree/master/0424-longest-repeating-character-replacement) |
+| [1034-subarrays-with-k-different-integers](https://github.com/Hyunsujk/leetcode/tree/master/1034-subarrays-with-k-different-integers) |
 ## Binary Search
 |  |
 | ------- |
@@ -310,6 +313,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/Hyunsujk/leetcode/tree/master/0347-top-k-frequent-elements) |
+| [1034-subarrays-with-k-different-integers](https://github.com/Hyunsujk/leetcode/tree/master/1034-subarrays-with-k-different-integers) |
 | [3335-minimum-operations-to-write-the-letter-y-on-a-grid](https://github.com/Hyunsujk/leetcode/tree/master/3335-minimum-operations-to-write-the-letter-y-on-a-grid) |
 ## Quickselect
 |  |
