@@ -31,19 +31,23 @@ class Solution:
             if char not in node.children:
                 return
 
-            node = node.children[char]
-            if node.end_word:
-                found.add(node.end_word)
+            next_node = node.children[char]
+            if next_node.end_word:
+                found.add(next_node.end_word)
+                next_node.end_word = ""
 
-            temp, board[r][c] = board[r][c], '#'
+            board[r][c] = '#'
 
             for rowDiff, colDiff in [(1,0), (-1,0), (0,1), (0,-1)]:
                 newRow = r + rowDiff
                 newCol = c + colDiff
                 if 0 <= newRow < rows and 0 <= newCol < cols and board[newRow][newCol] != '#':
-                    dfs(newRow, newCol, node)
+                    dfs(newRow, newCol, next_node)
 
-            board[r][c] = temp 
+            board[r][c] = char 
+
+            if not next_node.children and not next_node.end_word:
+                node.children.pop(char)
 
         for r in range(rows):
             for c in range(cols):
