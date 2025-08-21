@@ -4,7 +4,7 @@ class Bank:
         self.balance = balance
         
     def _isValidAccount(self, account: int):
-        return account - 1 < len(self.balance)
+        return 0 <= account - 1 < len(self.balance)
 
     def transfer(self, account1: int, account2: int, money: int) -> bool:
         if self._isValidAccount(account1) and self._isValidAccount(account2) and \
