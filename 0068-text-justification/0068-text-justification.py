@@ -1,38 +1,32 @@
 class Solution:
     def fullJustify(self, words: List[str], maxWidth: int) -> List[str]:
         res = []
-        def helper(i, length, line):
+
+        def helper(i, line, length):
             if i == len(words):
-                line_str = " ".join(line)
-                line_str += " " * (maxWidth - len(line_str))
-                res.append(line_str)
+                subline = " ".join(line)
+                subline += " " * (maxWidth - len(subline))
+                res.append(subline)
                 return
-            
-            if length + len(line) + len(words[i]) > maxWidth:
-                space_count = len(line) - 1
-                if space_count == 0:
-                    line_str = line[0] + " " * (maxWidth - len(line[0]))
-                    res.append(line_str)
+
+            currWord = words[i]
+            if length + len(line) + len(currWord) > maxWidth:
+                spaceSection = len(line)-1
+                spaces = maxWidth - length
+                if spaceSection == 0:
+                    subline = line[0] + " " * spaces
                 else:
-                    total_spaces = maxWidth - length
-                    even_spaces, extra_spaces = divmod(total_spaces, space_count)
-                    line_str = ""
-                    for j in range(space_count):
-                        line_str += line[j] + " " * (even_spaces + (1 if j < extra_spaces else 0))
-                    line_str += line[-1]
-                    res.append(line_str)
-                return helper(i+1, len(words[i]), [words[i]])
+                    evenSpaces, extraSpaces = divmod(spaces, spaceSection)
+                    subline = ""
+                    for j in range(spaceSection):
+                        subline += line[j] + " " * (evenSpaces + (1 if j < extraSpaces else 0))
+                    subline += line[-1]
+                res.append(subline)
+                return helper(i+1, [currWord], len(currWord))
             else:
-                line.append(words[i])
-                return helper(i+1, length + len(words[i]), line)
+                line.append(currWord)
+                return helper(i+1, line, length + len(currWord))
             
-            
-        
-        helper(0, 0, [])
-
+        helper(0, [], 0)
         return res
-
-            
-
-
         
