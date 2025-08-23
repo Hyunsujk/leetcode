@@ -2,32 +2,28 @@ class Bank:
 
     def __init__(self, balance: List[int]):
         self.balance = balance
-        
-    def _isValidAccount(self, account: int):
-        return 0 <= account - 1 < len(self.balance)
+    
+    def _validAccount(self, account):
+        return 1 <= account <= len(self.balance)
 
     def transfer(self, account1: int, account2: int, money: int) -> bool:
-        if self._isValidAccount(account1) and self._isValidAccount(account2) and \
-            self.withdraw(account1, money) and self.deposit(account2, money):
-            return True
-        else:
+        if not self._validAccount(account1) or not self._validAccount(account2):
             return False
+        return self.withdraw(account1, money) and self.deposit(account2, money)
         
 
     def deposit(self, account: int, money: int) -> bool:
-        if self._isValidAccount(account):
-            self.balance[account - 1] += money
-            return True
-        else:
+        if not self._validAccount(account):
             return False
-        
+        self.balance[account-1] += money
+        return True
+
 
     def withdraw(self, account: int, money: int) -> bool:
-        if self._isValidAccount(account) and self.balance[account - 1] >= money:
-            self.balance[account - 1] -= money
-            return True
-        else:
+        if not self._validAccount(account) or self.balance[account-1] < money:
             return False
+        self.balance[account-1] -= money
+        return True
         
 
 
