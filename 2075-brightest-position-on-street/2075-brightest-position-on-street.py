@@ -1,20 +1,20 @@
 class Solution:
     def brightestPosition(self, lights: List[List[int]]) -> int:
-        changes = defaultdict(int)
-
+        brightness_change = defaultdict(int)
         for p, r in lights:
-            changes[p-r] += 1
-            changes[p+r+1] -= 1
+            brightness_change[p-r] += 1
+            brightness_change[p+r+1] -= 1
         
-        current_brightness = 0
-        brightest_idx = 0
-        brightest = float("-inf")
+        brightness = 0
+        max_brightness = 0
+        max_idx = 0
 
-        for cp, c in sorted(changes.items()):
-            current_brightness += c
-            if current_brightness > brightest:
-                brightest, brightest_idx = current_brightness, cp
+        for i, b in sorted(brightness_change.items()):
+            brightness += b
+            if brightness > max_brightness:
+                max_brightness, max_idx = brightness, i
         
-        return brightest_idx
+        return max_idx
+    
 
         
