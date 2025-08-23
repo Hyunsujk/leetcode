@@ -50,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/Hyunsujk/leetcode/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [1866-restore-the-array-from-adjacent-pairs](https://github.com/Hyunsujk/leetcode/tree/master/1866-restore-the-array-from-adjacent-pairs) |
 | [1972-rotating-the-box](https://github.com/Hyunsujk/leetcode/tree/master/1972-rotating-the-box) |
+| [2075-brightest-position-on-street](https://github.com/Hyunsujk/leetcode/tree/master/2075-brightest-position-on-street) |
 | [2169-simple-bank-system](https://github.com/Hyunsujk/leetcode/tree/master/2169-simple-bank-system) |
 | [2779-number-of-adjacent-elements-with-the-same-color](https://github.com/Hyunsujk/leetcode/tree/master/2779-number-of-adjacent-elements-with-the-same-color) |
 | [2889-number-of-black-blocks](https://github.com/Hyunsujk/leetcode/tree/master/2889-number-of-black-blocks) |
@@ -228,6 +229,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/Hyunsujk/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0435-non-overlapping-intervals](https://github.com/Hyunsujk/leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0539-minimum-time-difference](https://github.com/Hyunsujk/leetcode/tree/master/0539-minimum-time-difference) |
+| [2075-brightest-position-on-street](https://github.com/Hyunsujk/leetcode/tree/master/2075-brightest-position-on-street) |
 ## Greedy
 |  |
 | ------- |
@@ -412,6 +414,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/Hyunsujk/leetcode/tree/master/0238-product-of-array-except-self) |
 | [0253-meeting-rooms-ii](https://github.com/Hyunsujk/leetcode/tree/master/0253-meeting-rooms-ii) |
+| [2075-brightest-position-on-street](https://github.com/Hyunsujk/leetcode/tree/master/2075-brightest-position-on-street) |
 ## Rolling Hash
 |  |
 | ------- |
@@ -431,4 +434,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/Hyunsujk/leetcode/tree/master/0084-largest-rectangle-in-histogram) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/Hyunsujk/leetcode/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
+## Ordered Set
+|  |
+| ------- |
+| [2075-brightest-position-on-street](https://github.com/Hyunsujk/leetcode/tree/master/2075-brightest-position-on-street) |
 <!---LeetCode Topics End-->
