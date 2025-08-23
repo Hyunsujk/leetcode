@@ -3,20 +3,17 @@ class Solution:
         """
         Do not return anything, modify matrix in-place instead.
         """
-        top_r = 0
-        bottom_r = len(matrix)-1
+        rows = len(matrix)
+        cols = len(matrix[0])
 
-        while top_r <= bottom_r:
-            temp = matrix[top_r]
-            matrix[top_r] = matrix[bottom_r]
-            matrix[bottom_r] = temp
-            top_r += 1
-            bottom_r -= 1
+        top = 0
+        bottom = rows - 1
 
-        for i in range(len(matrix)):
-            for j in range(i, len(matrix[0])):
-                temp = matrix[i][j]
-                matrix[i][j] = matrix[j][i]
-                matrix[j][i] = temp
+        while top <= bottom:
+            matrix[top], matrix[bottom] = matrix[bottom], matrix[top]
+            top += 1
+            bottom -= 1
         
-        return matrix
+        for r in range(rows):
+            for c in range(r, cols):
+                matrix[r][c], matrix[c][r] = matrix[c][r], matrix[r][c]
