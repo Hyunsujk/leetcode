@@ -11,12 +11,11 @@ class Solution:
                 right += 1
             else:
                 word = path[left+1:right]
-                if len(word) > 0:
-                    if word == "..":
-                        if p:
-                            p.pop()
-                    elif word != ".":
-                        p.append(word)
+                if word == "..":
+                    if p:
+                        p.pop()
+                elif word != "." and word != "":
+                    p.append(word)
                 left = right
                 right += 1
         
