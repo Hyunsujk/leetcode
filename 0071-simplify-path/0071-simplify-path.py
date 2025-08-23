@@ -12,7 +12,6 @@ class Solution:
             else:
                 if right - left > 1:
                     word = path[left+1:right]
-                    print(word)
                     if word == "..":
                         if p:
                             p.pop()
