@@ -3,19 +3,21 @@ class Solution:
         rows = len(boxGrid)
         cols = len(boxGrid[0])
 
-        for i in range(rows):
+        for r in range(rows):
             lowestEmpty = cols-1
-            for j in range(cols-1, -1, -1):
-                if boxGrid[i][j] == "#":
-                    boxGrid[i][j], boxGrid[i][lowestEmpty] = boxGrid[i][lowestEmpty], boxGrid[i][j]
+            for c in range(cols-1,-1,-1):
+                if boxGrid[r][c] == "#":
+                    boxGrid[r][c], boxGrid[r][lowestEmpty] = boxGrid[r][lowestEmpty], boxGrid[r][c]
                     lowestEmpty -= 1
-                if boxGrid[i][j] == "*":
-                    lowestEmpty = j-1
+                if boxGrid[r][c] == "*":
+                    lowestEmpty = c-1
         
         res = [["."] * rows for _ in range(cols)]
 
         for r in range(rows):
             for c in range(cols):
-                res[c][rows-1-r] = boxGrid[r][c]
+                nr = c
+                nc = rows - r - 1
+                res[nr][nc] = boxGrid[r][c]
         
         return res
