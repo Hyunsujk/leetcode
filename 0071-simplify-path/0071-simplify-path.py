@@ -10,8 +10,8 @@ class Solution:
             if right < len(path) and path[right] != "/":
                 right += 1
             else:
-                if right - left > 1:
-                    word = path[left+1:right]
+                word = path[left+1:right]
+                if len(word) > 0:
                     if word == "..":
                         if p:
                             p.pop()
