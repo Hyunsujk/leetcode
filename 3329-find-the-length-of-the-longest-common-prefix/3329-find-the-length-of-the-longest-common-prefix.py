@@ -12,6 +12,7 @@ class Solution:
             while a:
                 if a in prefixes:
                     maxP = max(maxP, a)
+                    break
                 a //= 10
         
         return len(str(maxP)) if maxP != 0 else 0
