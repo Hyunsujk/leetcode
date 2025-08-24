@@ -12,8 +12,7 @@ class Solution:
         
         count = 0
         for i in range(len(currPattern)-len(pattern)+1):
-            subarray = currPattern[i:i+len(pattern)]
-            if subarray == pattern:
+            if currPattern[i:i+len(pattern)] == pattern:
                 count += 1
         
         return count
