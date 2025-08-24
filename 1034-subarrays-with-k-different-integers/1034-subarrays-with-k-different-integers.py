@@ -1,24 +1,28 @@
 class Solution:
     def subarraysWithKDistinct(self, nums: List[int], k: int) -> int:
-        def atMostK(nums, distinct: int):
+        def AtMostK(k):
             seen = defaultdict(int)
+            count = 0
             left = 0
-            res = 0
 
             for right, num in enumerate(nums):
                 if seen[num] == 0:
-                    distinct -= 1
+                    k -= 1
                 seen[num] += 1
-        
-                while distinct < 0:
+            
+                while k < 0:
                     seen[nums[left]] -= 1
                     if seen[nums[left]] == 0:
-                        distinct += 1
+                        k += 1
                     left += 1
-                
-                res += right - left + 1
             
-            return res
+                count += right - left + 1
+            
+            return count
         
-        return atMostK(nums, k) - atMostK(nums, k-1)
+        return AtMostK(k) - AtMostK(k-1)
+
+
+
+
         
