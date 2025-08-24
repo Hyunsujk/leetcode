@@ -17,13 +17,18 @@ class Solution:
                 else:
                     notYCount[grid[r][c]] += 1
         
+        changes = n*n
         ytotal = len(y)
-        y0 = ytotal - yCount[0] + min((notYCount[0]+notYCount[2]), (notYCount[0]+notYCount[1]))
-        y1 = ytotal - yCount[1] + min((notYCount[1]+notYCount[0]), (notYCount[1]+notYCount[2]))
-        y2 = ytotal - yCount[2] + min((notYCount[0]+notYCount[2]), (notYCount[1]+notYCount[2]))
-        
-        return min([y0, y1, y2])
+        btotal = n*n - ytotal
+        for yc in range(3):
+            for bc in range(3):
+                if yc == bc:
+                    continue
+                ychange = ytotal - yCount[yc]
+                bchange = btotal - notYCount[bc]
+                changes = min(changes, ychange + bchange)
 
+        return changes
 
 
 
