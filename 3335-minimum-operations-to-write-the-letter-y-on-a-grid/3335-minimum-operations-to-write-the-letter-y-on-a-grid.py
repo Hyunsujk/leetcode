@@ -7,9 +7,8 @@ class Solution:
         for i in range(mid+1):
             y.update([(i,i), (i,n-1-i), (n-1-i, mid)])
         
-        yCount = {0:0, 1:0, 2:0}
-        notYCount = {0:0, 1:0, 2:0}
-
+        yCount = [0, 0, 0]
+        notYCount = [0, 0, 0]
         for r in range(n):
             for c in range(n):
                 if (r,c) in y:
