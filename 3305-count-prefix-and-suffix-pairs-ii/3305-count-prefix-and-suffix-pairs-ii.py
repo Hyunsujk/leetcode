@@ -6,11 +6,10 @@ class TrieNode:
 class Trie:
     def __init__(self):
         self.root = TrieNode()
-
+    
     def match(self, word, reverse = False):
-        node = self.root
         matches = set()
-
+        node = self.root
         for char in word:
             if char not in node.children:
                 node.children[char] = TrieNode()
@@ -18,8 +17,8 @@ class Trie:
             if node.end_word:
                 matches.add(node.end_word)
         node.end_word = word[::-1] if reverse else word
+        
         return matches
-
 
 class Solution:
     def countPrefixSuffixPairs(self, words: List[str]) -> int:
@@ -27,17 +26,15 @@ class Solution:
         suffixT = Trie()
 
         seen = defaultdict(int)
-        count = 0
-        for word in words:
-            prefixes = prefixT.match(word)
-            reverseW = word[::-1]
-            suffixes = suffixT.match(reverseW, True)
+        total = 0
+        for w in words:
+            prefixes = prefixT.match(w)
+            reversedW = w[::-1]
+            suffixes = suffixT.match(reversedW, True)
             for p in prefixes:
                 if p in suffixes:
-                    count += seen[p]
-            seen[word] += 1
+                    total += seen[p]
+            seen[w] += 1            
         
-        return count
-
-
+        return total
         
