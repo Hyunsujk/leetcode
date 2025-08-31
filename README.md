@@ -76,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0139-word-break](https://github.com/Hyunsujk/leetcode/tree/master/0139-word-break) |
 | [0141-linked-list-cycle](https://github.com/Hyunsujk/leetcode/tree/master/0141-linked-list-cycle) |
 | [0146-lru-cache](https://github.com/Hyunsujk/leetcode/tree/master/0146-lru-cache) |
+| [0202-happy-number](https://github.com/Hyunsujk/leetcode/tree/master/0202-happy-number) |
 | [0208-implement-trie-prefix-tree](https://github.com/Hyunsujk/leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0217-contains-duplicate](https://github.com/Hyunsujk/leetcode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/Hyunsujk/leetcode/tree/master/0242-valid-anagram) |
@@ -155,6 +156,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0125-valid-palindrome](https://github.com/Hyunsujk/leetcode/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/Hyunsujk/leetcode/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/Hyunsujk/leetcode/tree/master/0143-reorder-list) |
+| [0202-happy-number](https://github.com/Hyunsujk/leetcode/tree/master/0202-happy-number) |
 | [0253-meeting-rooms-ii](https://github.com/Hyunsujk/leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0647-palindromic-substrings](https://github.com/Hyunsujk/leetcode/tree/master/0647-palindromic-substrings) |
 | [0723-candy-crush](https://github.com/Hyunsujk/leetcode/tree/master/0723-candy-crush) |
@@ -277,6 +279,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0062-unique-paths](https://github.com/Hyunsujk/leetcode/tree/master/0062-unique-paths) |
 | [0066-plus-one](https://github.com/Hyunsujk/leetcode/tree/master/0066-plus-one) |
 | [0070-climbing-stairs](https://github.com/Hyunsujk/leetcode/tree/master/0070-climbing-stairs) |
+| [0202-happy-number](https://github.com/Hyunsujk/leetcode/tree/master/0202-happy-number) |
 | [0268-missing-number](https://github.com/Hyunsujk/leetcode/tree/master/0268-missing-number) |
 | [0371-sum-of-two-integers](https://github.com/Hyunsujk/leetcode/tree/master/0371-sum-of-two-integers) |
 | [0539-minimum-time-difference](https://github.com/Hyunsujk/leetcode/tree/master/0539-minimum-time-difference) |
