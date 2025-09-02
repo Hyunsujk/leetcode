@@ -17,11 +17,6 @@ class Solution:
                 pointer1 -= 1
                 insert -= 1
         
-        while pointer1 >= 0:
-            nums1[pointer1], nums1[insert] = nums1[insert], nums1[pointer1]
-            pointer1 -= 1
-            insert -= 1
-        
         while pointer2 >= 0:
             nums1[insert] = nums2[pointer2]
             insert -= 1
