@@ -14,12 +14,11 @@ class Solution:
             if len(set(filled)) != len(filled):
                 return False
             
-        diff = [0, 1, 2]
         for r in [0, 3, 6]:
             for c in [0, 3, 6]:
                 block = []
-                for dr in diff:
-                    for dc in diff:
+                for dr in range(3):
+                    for dc in range(3):
                         nr = r + dr
                         nc = c + dc
                         block.append(board[nr][nc])
