@@ -1,14 +1,12 @@
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
-        group = {}
+        group = defaultdict(list)
 
         if len(strs) == 1:
             return [[strs[0]]]
 
         for s in strs:
-            chars = str(sorted([c for c in s]))
-            if chars not in group:
-                group[chars] = []
+            chars = "".join(sorted(s))
             group[chars].append(s)
         
         return list(group.values())
