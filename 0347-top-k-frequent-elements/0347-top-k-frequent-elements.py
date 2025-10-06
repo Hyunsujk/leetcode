@@ -6,7 +6,7 @@ class Solution:
 
         freql = [(num, f) for num, f in freq.items()]
         freql.sort(key = lambda x:x[1], reverse=True)
-        print(freql)
+
         l = []
         for i in range(k):
             l.append(freql[i][0])
