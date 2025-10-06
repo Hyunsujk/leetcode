@@ -5,12 +5,9 @@ class Solution:
         heap = []
         for num, f in freq.items():
             heapq.heappush(heap, (-f, num))
+        
         res = []
         for i in range(k):
             res.append(heapq.heappop(heap)[1])
-        
+    
         return res
-
-
-
-        
