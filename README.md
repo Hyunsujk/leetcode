@@ -310,6 +310,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0071-simplify-path](https://github.com/Hyunsujk/leetcode/tree/master/0071-simplify-path) |
 | [0084-largest-rectangle-in-histogram](https://github.com/Hyunsujk/leetcode/tree/master/0084-largest-rectangle-in-histogram) |
 | [0143-reorder-list](https://github.com/Hyunsujk/leetcode/tree/master/0143-reorder-list) |
+| [0155-min-stack](https://github.com/Hyunsujk/leetcode/tree/master/0155-min-stack) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/Hyunsujk/leetcode/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 ## Recursion
 |  |
@@ -323,6 +324,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/Hyunsujk/leetcode/tree/master/0146-lru-cache) |
+| [0155-min-stack](https://github.com/Hyunsujk/leetcode/tree/master/0155-min-stack) |
 | [0208-implement-trie-prefix-tree](https://github.com/Hyunsujk/leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/Hyunsujk/leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0271-encode-and-decode-strings](https://github.com/Hyunsujk/leetcode/tree/master/0271-encode-and-decode-strings) |
