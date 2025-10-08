@@ -11,10 +11,7 @@ class Solution:
             if b not in pair:
                 stack.append(b)
             else:
-                if len(stack) == 0:
-                    return False
-                o = stack.pop()
-                if o != pair[b]:
+                if not stack or stack.pop() != pair[b]:
                     return False
         
         return len(stack) == 0
