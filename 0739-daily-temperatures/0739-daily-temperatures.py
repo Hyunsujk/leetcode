@@ -1,12 +1,13 @@
 class Solution:
     def dailyTemperatures(self, temperatures: List[int]) -> List[int]:
+        n = len(temperatures)
         track = []
-        res = [0] * len(temperatures)
+        res = [0] * n
 
-        for i, temp in enumerate(temperatures):
-            while track and track[-1][1] < temp:
+        for i in range(n):
+            while track and temperatures[track[-1]] < temperatures[i]:
                 prev = track.pop()
-                res[prev[0]] = i - prev[0]
-            track.append((i, temp))
+                res[prev] = i - prev
+            track.append(i)
         
         return res
