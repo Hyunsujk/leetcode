@@ -1,22 +1,23 @@
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
-        def helper(start, end):
-            if start > end:
-                return -1
-            mid = (end+start)//2
+        l = 0
+        r = len(nums)-1
+
+        while l <= r:
+            mid = (r+l)//2
             if nums[mid] == target:
                 return mid
             
-            if nums[start] <= nums[mid]:
-                if nums[start] <= target < nums[mid]:
-                    return helper(start, mid-1)
+            if nums[l] <= nums[mid]:
+                if nums[l] <= target < nums[mid]:
+                    r = mid - 1
                 else:
-                    return helper(mid+1, end)
+                    l = mid + 1
             else:
-                if nums[mid] < target <= nums[end]:
-                    return helper(mid+1, end)
+                if nums[mid] < target <= nums[r]:
+                    l = mid + 1
                 else:
-                    return helper(start, mid-1)
+                    r = mid - 1
         
-        return helper(0, len(nums)-1)
+        return -1
         
