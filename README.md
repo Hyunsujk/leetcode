@@ -55,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0723-candy-crush](https://github.com/Hyunsujk/leetcode/tree/master/0723-candy-crush) |
 | [0739-daily-temperatures](https://github.com/Hyunsujk/leetcode/tree/master/0739-daily-temperatures) |
 | [0747-min-cost-climbing-stairs](https://github.com/Hyunsujk/leetcode/tree/master/0747-min-cost-climbing-stairs) |
+| [0792-binary-search](https://github.com/Hyunsujk/leetcode/tree/master/0792-binary-search) |
 | [0883-car-fleet](https://github.com/Hyunsujk/leetcode/tree/master/0883-car-fleet) |
 | [1034-subarrays-with-k-different-integers](https://github.com/Hyunsujk/leetcode/tree/master/1034-subarrays-with-k-different-integers) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/Hyunsujk/leetcode/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
@@ -148,6 +149,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Hyunsujk/leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0268-missing-number](https://github.com/Hyunsujk/leetcode/tree/master/0268-missing-number) |
 | [0300-longest-increasing-subsequence](https://github.com/Hyunsujk/leetcode/tree/master/0300-longest-increasing-subsequence) |
+| [0792-binary-search](https://github.com/Hyunsujk/leetcode/tree/master/0792-binary-search) |
 ## Divide and Conquer
 |  |
 | ------- |
