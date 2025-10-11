@@ -1,17 +1,17 @@
 class Solution:
     def checkInclusion(self, s1: str, s2: str) -> bool:
         s1_count = Counter(s1)
+        window_count = Counter(s2[:len(s1)])
         
-        left = 0
-        right = len(s1) - 1
+        if s1_count == window_count:
+            return True
 
-        while right < len(s2):
-            if s2[left] in s1:
-                sub_count = Counter(s2[left:right+1])
-                if s1_count == sub_count:
-                    return True
-            left += 1
-            right += 1
+        for i in range(len(s1), len(s2)):
+            left = i-len(s1)
+            window_count[s2[left]] -= 1
+            window_count[s2[i]] += 1
+            if window_count == s1_count:
+                return True
         
         return False
                 
