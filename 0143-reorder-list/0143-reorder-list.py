@@ -8,36 +8,31 @@ class Solution:
         """
         Do not return anything, modify head in-place instead.
         """
-        if not head or not head.next:
-            return
-
-        # find middle
-        slow, fast = head, head
+        slow = fast = head
         while fast and fast.next:
             slow = slow.next
             fast = fast.next.next
         
-        #reverse second half
         prev = None
-        curr = slow.next
-        slow.next = None
-        while curr:
-            temp = curr.next
-            curr.next = prev
-            prev = curr
-            curr = temp
+        while slow:
+            ahead = slow.next
+            slow.next = prev
+            prev = slow
+            slow = ahead
         
-        #now prev is the head of the reversed second half
-        first = head
-        second = prev
+        first, second = head, prev
 
-        while second:
-            temp_1 = first.next
-            temp_2 = second.next
+        while second.next:
+            first_next = first.next
+            second_next = second.next
             first.next = second
-            second.next = temp_1
-            first = temp_1
-            second = temp_2
-        
+            second.next = first_next
+            first = first_next
+            second = second_next
 
-        
+        return head
+
+
+            
+
+            
