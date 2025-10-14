@@ -229,6 +229,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0261-graph-valid-tree](https://github.com/Hyunsujk/leetcode/tree/master/0261-graph-valid-tree) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/Hyunsujk/leetcode/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0417-pacific-atlantic-water-flow](https://github.com/Hyunsujk/leetcode/tree/master/0417-pacific-atlantic-water-flow) |
+| [0543-diameter-of-binary-tree](https://github.com/Hyunsujk/leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/Hyunsujk/leetcode/tree/master/0572-subtree-of-another-tree) |
 | [1866-restore-the-array-from-adjacent-pairs](https://github.com/Hyunsujk/leetcode/tree/master/1866-restore-the-array-from-adjacent-pairs) |
 ## Breadth-First Search
@@ -392,6 +393,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0230-kth-smallest-element-in-a-bst](https://github.com/Hyunsujk/leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/Hyunsujk/leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0257-binary-tree-paths](https://github.com/Hyunsujk/leetcode/tree/master/0257-binary-tree-paths) |
+| [0543-diameter-of-binary-tree](https://github.com/Hyunsujk/leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/Hyunsujk/leetcode/tree/master/0572-subtree-of-another-tree) |
 ## String Matching
 |  |
@@ -413,6 +415,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0230-kth-smallest-element-in-a-bst](https://github.com/Hyunsujk/leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/Hyunsujk/leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0257-binary-tree-paths](https://github.com/Hyunsujk/leetcode/tree/master/0257-binary-tree-paths) |
+| [0543-diameter-of-binary-tree](https://github.com/Hyunsujk/leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/Hyunsujk/leetcode/tree/master/0572-subtree-of-another-tree) |
 ## Hash Function
 |  |
