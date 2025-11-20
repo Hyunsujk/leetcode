@@ -11,14 +11,9 @@ class Solution:
         def dfs(node, max_val):
             if not node:
                 return 0
-            if node.val >= max_val:
-                good_nodes.add(node)
+            good = 1 if node.val >= max_val else 0
             max_val = max(node.val, max_val)
-            if node.left:
-                dfs(node.left, max_val)
-            if node.right:
-                dfs(node.right, max_val)
+            return good + dfs(node.left, max_val) + dfs(node.right, max_val)
         
-        dfs(root, root.val)
-        return len(good_nodes)
+        return dfs(root, root.val)
 
