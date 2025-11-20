@@ -13,14 +13,16 @@ class Solution:
             if node is None:
                 return None
             
-            inorder(node.left)
+            left = inorder(node.left)
+            if left is not None:
+                return left
 
             self.count += 1
             if self.count == k:
                 self.result = node.val
                 return
             
-            inorder(node.right)
+            return inorder(node.right)
         
         inorder(root)
         return self.result
