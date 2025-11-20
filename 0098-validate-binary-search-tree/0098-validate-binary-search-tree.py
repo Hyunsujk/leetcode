@@ -12,8 +12,8 @@ class Solution:
         def dfs(node, left_bound, right_bound):
             if not node:
                 return True
-            if not (left_bound < node.val < right_bound):
-                return False
-            return dfs(node.left, left_bound, node.val) and dfs(node.right, node.val, right_bound)
+            if (left_bound < node.val < right_bound):
+                return dfs(node.left, left_bound, node.val) and dfs(node.right, node.val, right_bound)
+            return False
         
         return dfs(root, float("-inf"), float("inf"))
