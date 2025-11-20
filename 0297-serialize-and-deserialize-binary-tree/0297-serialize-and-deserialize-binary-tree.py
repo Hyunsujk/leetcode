@@ -26,21 +26,24 @@ class Codec:
         :type data: str
         :rtype: TreeNode
         """
-        vals = data.split(",")
         self.idx = 0
-        
+        vals = data.split(",")
         def helper():
-            if vals[self.idx] == "N":
+            v = vals[self.idx]
+            if v == "N":
                 self.idx += 1
-                return
+                return None
             
-            node = TreeNode(int(vals[self.idx]))
+            node = TreeNode(int(v))
             self.idx += 1
             node.left = helper()
             node.right = helper()
             return node
         return helper()
-
+            
+       
+        
+            
         
 
 # Your Codec object will be instantiated and called as such:
