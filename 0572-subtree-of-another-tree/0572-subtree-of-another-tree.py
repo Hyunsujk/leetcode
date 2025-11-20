@@ -16,7 +16,7 @@ class Solution:
         if not node:
             return "N"
         path = ""
-        path += str(node.val)
+        path += "," + str(node.val) + ","
         path += self.preorder(node.left)
         path += self.preorder(node.right)
         return path
