@@ -10,23 +10,19 @@ class Solution:
             return []
         res = []
         q = [root]
-        curr = []
-        next_level = []
         while q:
-            node = q.pop(0)
-            if node.left:
-                next_level.append(node.left)
-            if node.right:
-                next_level.append(node.right)
-            curr.append(node.val)
-            if not q:
-                res.append(curr)
-                q = next_level
-                curr = []
-                next_level = []
+            curr_val = []
+            next_level = []
+            for n in q:
+                curr_val.append(n.val)
+                if n.left:
+                    next_level.append(n.left)
+                if n.right:
+                    next_level.append(n.right)
+            q = next_level
+            res.append(curr_val)
         return res
-
-
-            
+        
+                
 
         
