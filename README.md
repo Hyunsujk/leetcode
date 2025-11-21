@@ -128,6 +128,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/Hyunsujk/leetcode/tree/master/0079-word-search) |
 | [0091-decode-ways](https://github.com/Hyunsujk/leetcode/tree/master/0091-decode-ways) |
 | [0125-valid-palindrome](https://github.com/Hyunsujk/leetcode/tree/master/0125-valid-palindrome) |
+| [0131-palindrome-partitioning](https://github.com/Hyunsujk/leetcode/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/Hyunsujk/leetcode/tree/master/0139-word-break) |
 | [0208-implement-trie-prefix-tree](https://github.com/Hyunsujk/leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/Hyunsujk/leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
@@ -206,6 +207,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0091-decode-ways](https://github.com/Hyunsujk/leetcode/tree/master/0091-decode-ways) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Hyunsujk/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Hyunsujk/leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
+| [0131-palindrome-partitioning](https://github.com/Hyunsujk/leetcode/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/Hyunsujk/leetcode/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/Hyunsujk/leetcode/tree/master/0152-maximum-product-subarray) |
 | [0198-house-robber](https://github.com/Hyunsujk/leetcode/tree/master/0198-house-robber) |
@@ -479,6 +481,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0078-subsets](https://github.com/Hyunsujk/leetcode/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/Hyunsujk/leetcode/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/Hyunsujk/leetcode/tree/master/0090-subsets-ii) |
+| [0131-palindrome-partitioning](https://github.com/Hyunsujk/leetcode/tree/master/0131-palindrome-partitioning) |
 | [0212-word-search-ii](https://github.com/Hyunsujk/leetcode/tree/master/0212-word-search-ii) |
 | [0257-binary-tree-paths](https://github.com/Hyunsujk/leetcode/tree/master/0257-binary-tree-paths) |
 ## Simulation
