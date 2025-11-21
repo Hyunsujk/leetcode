@@ -3,32 +3,24 @@ class Solution:
         rows = len(board)
         cols = len(board[0])
 
-        for i in range(rows):
-            for j in range(cols):
-                if board[i][j] == word[0] and self.find_string(i, j, board, word, 0):
+        def dfs(r, c, i):
+            if i == len(word):
+                return True
+            
+            if r < 0 or r >= rows or c < 0 or c >= cols:
+                return False
+            if board[r][c] != word[i]:
+                return False
+            
+            temp = board[r][c]
+            board[r][c] = "#"
+            found = (dfs(r+1, c, i+1) or dfs(r-1, c, i+1) or dfs(r, c+1, i+1) or dfs(r, c-1, i+1))
+
+            board[r][c] = temp
+            return found
+        
+        for r in range(rows):
+            for c in range(cols):
+                if dfs(r, c, 0):
                     return True
-        
         return False
-    
-    def find_string(self, row, col, board, word, i):
-        if i == len(word):
-            return True
-        
-        if (row < 0 or row >= len(board) 
-        or col < 0 or col >= len(board[0]) 
-        or board[row][col] != word[i]):
-            return False
-
-        temp = board[row][col]
-        board[row][col] = "#"
-
-        found = (
-            self.find_string(row+1, col, board, word, i+1) or
-            self.find_string(row-1, col, board, word, i+1) or
-            self.find_string(row, col+1, board, word, i+1) or
-            self.find_string(row, col-1, board, word, i+1)
-        )
-
-        board[row][col] = temp
-
-        return found
