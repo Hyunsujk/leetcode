@@ -8,12 +8,12 @@ class Solution:
                 res.append(slate[:])
                 return
             
-            if total > target:
-                return
-            
             for i in range(start, len(candidates)):
                 if i > start and candidates[i] == candidates[i-1]:
                     continue
+                
+                if total + candidates[i] > target:
+                    break
                 
                 slate.append(candidates[i])
                 helper(i+1, slate, total + candidates[i])
