@@ -2,21 +2,16 @@ class Solution:
     def partition(self, s: str) -> List[List[str]]:
         res = []
 
-        def helper(start, st, slate):
+        def dfs(start, slate):
             if start == len(s) and slate:
                 res.append(slate[:])
-                return
 
             for end in range(start, len(s)):
-                substring = s[start:end+1]
-                if self.is_palin(substring):
-                    slate.append(substring)
-                    helper(end+1, substring, slate)
+                sub_str = s[start: end+1]
+                if sub_str == sub_str[::-1]:
+                    slate.append(sub_str)
+                    dfs(end+1, slate)
                     slate.pop()
-
-        helper(0, "", [])
+        
+        dfs(0, [])
         return res
-    
-    def is_palin(self, s):
-        return s == s[::-1]
-
