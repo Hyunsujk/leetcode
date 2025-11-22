@@ -15,24 +15,23 @@ class WordDictionary:
             if c not in curr.children:
                 curr.children[c] = TrieNode()
             curr = curr.children[c]
-        curr.is_end = True        
+        curr.is_end = True
+        
 
     def search(self, word: str) -> bool:
         def dfs(i, node):
             if i == len(word):
                 return node.is_end
-            if word[i] != ".":
-                if word[i] not in node.children:
-                    return False
-                return dfs(i+1, node.children[word[i]])
-            else:
+            if word[i] == ".":
                 for child in node.children.values():
                     if dfs(i+1, child):
                         return True
                 return False
-
+            if word[i] not in node.children:
+                return False
+            return dfs(i+1, node.children[word[i]])
+        
         return dfs(0, self.trie)
-
         
 
 
