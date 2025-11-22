@@ -1,58 +1,59 @@
 class TrieNode:
     def __init__(self):
         self.children = {}
-        self.end_word = ""
+        self.is_end = False
+        self.word = ""
 
 class Trie:
     def __init__(self):
         self.root = TrieNode()
-
+    
     def add(self, word):
-        node = self.root
-        for char in word:
-            if char not in node.children:
-                node.children[char] = TrieNode()
-            node = node.children[char]
-        node.end_word = word
+        curr = self.root
+        for c in word:
+            if c not in curr.children:
+                curr.children[c] = TrieNode()
+            curr = curr.children[c]
+        curr.is_end = True
+        curr.word = word
 
 class Solution:
     def findWords(self, board: List[List[str]], words: List[str]) -> List[str]:
-        wordsT = Trie()
-
-        for word in words:
-            wordsT.add(word)
-        
         rows = len(board)
         cols = len(board[0])
-        found = set()
+        trie = Trie()
+        res = []
 
+        for word in words:
+            trie.add(word)
+        
         def dfs(r, c, node):
             char = board[r][c]
+
             if char not in node.children:
-                return
+                return 
 
-            next_node = node.children[char]
-            if next_node.end_word:
-                found.add(next_node.end_word)
-                next_node.end_word = ""
+            node = node.children[char]
 
-            board[r][c] = '#'
+            if node.is_end:
+                res.append(node.word)
+                node.is_end = False
+            
+            board[r][c] = "#"
 
-            for rowDiff, colDiff in [(1,0), (-1,0), (0,1), (0,-1)]:
-                newRow = r + rowDiff
-                newCol = c + colDiff
-                if 0 <= newRow < rows and 0 <= newCol < cols and board[newRow][newCol] != '#':
-                    dfs(newRow, newCol, next_node)
+            for dr, dc in [(1,0), (-1,0), (0,-1), (0,1)]:
+                nr = r + dr
+                nc = c + dc
+                if 0 <= nr < rows and 0 <= nc < cols and board[nr][nc] != "#":
+                    dfs(nr, nc, node)
 
-            board[r][c] = char 
-
-            if not next_node.children and not next_node.end_word:
-                node.children.pop(char)
-
+            board[r][c] = char
+        
         for r in range(rows):
             for c in range(cols):
-                dfs(r, c, wordsT.root)
-        
-        return list(found)
+                dfs(r, c, trie.root)
+
+        return res
+
 
         
