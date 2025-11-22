@@ -2,7 +2,7 @@ class TrieNode:
     def __init__(self):
         self.children = {}
         self.word = ""
-        
+
 class Trie:
     def __init__(self):
         self.root = TrieNode()
@@ -20,7 +20,6 @@ class Solution:
         rows = len(board)
         cols = len(board[0])
         found = []
-
         trie = Trie()
 
         for word in words:
@@ -32,10 +31,10 @@ class Solution:
             if char not in node.children:
                 return
             
-            next_node = node.children[char]
-            if next_node.word:
-                found.append(next_node.word)
-                next_node.word = ""
+            char_node = node.children[char]
+            if char_node.word:
+                found.append(char_node.word)
+                char_node.word = ""
             
             board[r][c] = "#"
 
@@ -43,15 +42,16 @@ class Solution:
                 nr = r + dr
                 nc = c + dc
                 if 0 <= nr < rows and 0 <= nc < cols and board[nr][nc] != "#":
-                    dfs(nr, nc, next_node)
-
+                    dfs(nr, nc, char_node)
+            
             board[r][c] = char
 
-            if not next_node.children and not next_node.word:
+            if not char_node.children and not char_node.word:
                 node.children.pop(char)
-        
+
         for r in range(rows):
             for c in range(cols):
                 dfs(r, c, trie.root)
-
+        
         return found
+            
