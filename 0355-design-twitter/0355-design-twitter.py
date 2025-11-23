@@ -1,22 +1,29 @@
+from collections import defaultdict
+
 class Twitter:
 
     def __init__(self):
-        self.following = {}
-        self.posts = deque()
+        self.following = defaultdict(set)
+        self.posts = defaultdict(list)
+        self.time = 0
         
 
     def postTweet(self, userId: int, tweetId: int) -> None:
-        self.posts.append((userId, tweetId))
+        self.posts[userId].append((self.time, tweetId))
+        self.time -= 1
         
 
     def getNewsFeed(self, userId: int) -> List[int]:
+        postings = self.posts[userId][-10:]
+        for followee in self.following[userId]:
+            postings += self.posts[followee][-10:]
+        
+        heapq.heapify(postings)
         r = []
-        followees = self.following.get(userId, set())
-        for post_user_id, tweet_id in reversed(self.posts):
-            if len(r) == 10:
+        for i in range(10):
+            if not postings:
                 break
-            if post_user_id == userId or post_user_id in followees:
-                r.append(tweet_id)
+            r.append(heapq.heappop(postings)[1])
         return r
         
 
