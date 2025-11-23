@@ -65,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0883-car-fleet](https://github.com/Hyunsujk/leetcode/tree/master/0883-car-fleet) |
 | [0907-koko-eating-bananas](https://github.com/Hyunsujk/leetcode/tree/master/0907-koko-eating-bananas) |
 | [1034-subarrays-with-k-different-integers](https://github.com/Hyunsujk/leetcode/tree/master/1034-subarrays-with-k-different-integers) |
+| [1046-last-stone-weight](https://github.com/Hyunsujk/leetcode/tree/master/1046-last-stone-weight) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/Hyunsujk/leetcode/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [1866-restore-the-array-from-adjacent-pairs](https://github.com/Hyunsujk/leetcode/tree/master/1866-restore-the-array-from-adjacent-pairs) |
 | [1972-rotating-the-box](https://github.com/Hyunsujk/leetcode/tree/master/1972-rotating-the-box) |
@@ -389,6 +390,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/Hyunsujk/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/Hyunsujk/leetcode/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Hyunsujk/leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
+| [1046-last-stone-weight](https://github.com/Hyunsujk/leetcode/tree/master/1046-last-stone-weight) |
 ## Merge Sort
 |  |
 | ------- |
