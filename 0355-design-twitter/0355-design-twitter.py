@@ -15,8 +15,8 @@ class Twitter:
 
     def getNewsFeed(self, userId: int) -> List[int]:
         postings = self.posts[userId][-10:]
-        for followee in self.following[userId]:
-            postings += self.posts[followee][-10:]
+        for following in self.following[userId]:
+            postings += self.posts[following][-10:]
         
         heapq.heapify(postings)
         r = []
