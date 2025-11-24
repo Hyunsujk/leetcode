@@ -11,7 +11,7 @@ class Solution:
     def cloneGraph(self, node: Optional['Node']) -> Optional['Node']:
         if not node:
             return None
-
+        
         visited = {}
 
         def dfs(node):
@@ -27,4 +27,3 @@ class Solution:
             return copy
         
         return dfs(node)
-        
