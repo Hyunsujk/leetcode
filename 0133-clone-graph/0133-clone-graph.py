@@ -11,18 +11,20 @@ class Solution:
     def cloneGraph(self, node: Optional['Node']) -> Optional['Node']:
         if not node:
             return None
-        
+
         visited = {}
 
-        def helper(n):
-            if n in visited:
-                return visited[n]
+        def dfs(node):
+            if node in visited:
+                return visited[node]
             
-            copy = Node(n.val)
-            visited[n] = copy
-            for neighbor in n.neighbors:
-                copy.neighbors.append(helper(neighbor))        
+            copy = Node(node.val)
+            visited[node] = copy
+
+            for neigh in node.neighbors:
+                copy.neighbors.append(dfs(neigh))
             
             return copy
         
-        return helper(node)
+        return dfs(node)
+        
