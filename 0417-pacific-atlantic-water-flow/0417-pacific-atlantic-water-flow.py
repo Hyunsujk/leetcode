@@ -9,7 +9,7 @@ class Solution:
         def dfs(r, c, visited, prev_height):
             if (r,c) in visited or heights[r][c] < prev_height:
                 return
-            
+
             visited.add((r,c))
 
             for dr, dc in [(0,1),(0,-1),(1,0),(-1,0)]:
@@ -17,6 +17,7 @@ class Solution:
                 nc = c + dc
                 if 0 <= nr < rows and 0 <= nc < cols:
                     dfs(nr, nc, visited, heights[r][c])
+            
         
         for r in range(rows):
             dfs(r, 0, pacific, heights[r][0])
@@ -25,5 +26,5 @@ class Solution:
         for c in range(cols):
             dfs(0, c, pacific, heights[0][c])
             dfs(rows-1, c, atlantic, heights[rows-1][c])
-
-        return list(map(list,(pacific & atlantic)))
+        
+        return list(map(list, pacific & atlantic))
