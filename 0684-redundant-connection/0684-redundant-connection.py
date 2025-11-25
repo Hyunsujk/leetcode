@@ -10,10 +10,10 @@ class Solution:
 
         def union(x, y):
             rootX, rootY = find(x), find(y)
-            
+
             if rootX == rootY:
                 return False
-
+            
             if rank[rootX] > rank[rootY]:
                 parent[rootY] = rootX
             elif rank[rootY] > rank[rootX]:
@@ -28,6 +28,6 @@ class Solution:
                 parent[a] = a
             if b not in parent:
                 parent[b] = b
-            
             if not union(a, b):
                 return [a, b]
+
