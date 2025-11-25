@@ -1,27 +1,24 @@
 class Solution:
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
-        adjList = defaultdict(list)
-        for c, prereq in prerequisites:
-            adjList[c].append(prereq)
-        
-        taking = set()
-        taken = set()
+        next_classes = defaultdict(list)
+        prereq_count = [0] * numCourses
 
-        def noCycle(course):
-            if course in taking:
-                return False
-            if course in taken:
-                return True
-            
-            taking.add(course)
-            for prereq in adjList[course]:
-                if not noCycle(prereq):
-                    return False
-            taking.remove(course)
-            taken.add(course)
-            return True
+        for course, prereq in prerequisites:
+            next_classes[prereq].append(course)
+            prereq_count[course] += 1
         
-        for i in range(numCourses):
-            if not noCycle(i):
-                return False
-        return True
+        q = deque([i for i in range(numCourses) if prereq_count[i] == 0])
+
+        taken = 0
+
+        while q:
+            course = q.popleft()
+            taken += 1
+
+            for next_course in next_classes[course]:
+                prereq_count[next_course] -= 1
+                if prereq_count[next_course] == 0:
+                    q.append(next_course)
+        
+        return True if taken == numCourses else False
+                
