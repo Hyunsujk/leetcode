@@ -17,7 +17,7 @@ class Solution:
         
         while q:
             r, c, t = q.popleft()
-            time = max(time, t) # why max?
+            time = max(time, t)
             for dr, dc in [(1,0),(-1,0),(0,1),(0,-1)]:
                 nr = r + dr
                 nc = c + dc
