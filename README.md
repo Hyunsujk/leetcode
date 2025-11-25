@@ -127,6 +127,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/Hyunsujk/leetcode/tree/master/0200-number-of-islands) |
 | [0261-graph-valid-tree](https://github.com/Hyunsujk/leetcode/tree/master/0261-graph-valid-tree) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/Hyunsujk/leetcode/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
+| [0684-redundant-connection](https://github.com/Hyunsujk/leetcode/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/Hyunsujk/leetcode/tree/master/0695-max-area-of-island) |
 ## String
 |  |
@@ -263,6 +264,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0417-pacific-atlantic-water-flow](https://github.com/Hyunsujk/leetcode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0543-diameter-of-binary-tree](https://github.com/Hyunsujk/leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/Hyunsujk/leetcode/tree/master/0572-subtree-of-another-tree) |
+| [0684-redundant-connection](https://github.com/Hyunsujk/leetcode/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/Hyunsujk/leetcode/tree/master/0695-max-area-of-island) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/Hyunsujk/leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [1866-restore-the-array-from-adjacent-pairs](https://github.com/Hyunsujk/leetcode/tree/master/1866-restore-the-array-from-adjacent-pairs) |
@@ -285,6 +287,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/Hyunsujk/leetcode/tree/master/0322-coin-change) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/Hyunsujk/leetcode/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0417-pacific-atlantic-water-flow](https://github.com/Hyunsujk/leetcode/tree/master/0417-pacific-atlantic-water-flow) |
+| [0684-redundant-connection](https://github.com/Hyunsujk/leetcode/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/Hyunsujk/leetcode/tree/master/0695-max-area-of-island) |
 | [0994-rotting-oranges](https://github.com/Hyunsujk/leetcode/tree/master/0994-rotting-oranges) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/Hyunsujk/leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
@@ -296,6 +299,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0210-course-schedule-ii](https://github.com/Hyunsujk/leetcode/tree/master/0210-course-schedule-ii) |
 | [0261-graph-valid-tree](https://github.com/Hyunsujk/leetcode/tree/master/0261-graph-valid-tree) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/Hyunsujk/leetcode/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
+| [0684-redundant-connection](https://github.com/Hyunsujk/leetcode/tree/master/0684-redundant-connection) |
 ## Sorting
 |  |
 | ------- |
