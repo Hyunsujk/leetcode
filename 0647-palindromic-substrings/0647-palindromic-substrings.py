@@ -1,18 +1,19 @@
 class Solution:
     def countSubstrings(self, s: str) -> int:
-        def isPal(l, r):
-            count = 0
-            while l >= 0 and r < len(s) and s[l] == s[r]:
-                count += 1
+        found = []
+        n = len(s)
+
+        if n <= 1:
+            return n
+
+        def expand(l, r):
+            while l >= 0 and r < n and s[l] == s[r]:
+                found.append(s[l:r+1])
                 l -= 1
                 r += 1
-            return count
         
-        res = 0
-        for i in range(len(s)):
-            res += isPal(i, i+1)
-            res += isPal(i, i)
-
-        return res
-
+        for i in range(n):
+            expand(i, i)
+            expand(i, i+1)
         
+        return len(found)
