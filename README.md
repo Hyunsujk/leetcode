@@ -65,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0695-max-area-of-island](https://github.com/Hyunsujk/leetcode/tree/master/0695-max-area-of-island) |
 | [0723-candy-crush](https://github.com/Hyunsujk/leetcode/tree/master/0723-candy-crush) |
 | [0739-daily-temperatures](https://github.com/Hyunsujk/leetcode/tree/master/0739-daily-temperatures) |
+| [0746-min-cost-climbing-stairs](https://github.com/Hyunsujk/leetcode/tree/master/0746-min-cost-climbing-stairs) |
 | [0747-min-cost-climbing-stairs](https://github.com/Hyunsujk/leetcode/tree/master/0747-min-cost-climbing-stairs) |
 | [0792-binary-search](https://github.com/Hyunsujk/leetcode/tree/master/0792-binary-search) |
 | [0883-car-fleet](https://github.com/Hyunsujk/leetcode/tree/master/0883-car-fleet) |
@@ -237,6 +238,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/Hyunsujk/leetcode/tree/master/0322-coin-change) |
 | [0435-non-overlapping-intervals](https://github.com/Hyunsujk/leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0647-palindromic-substrings](https://github.com/Hyunsujk/leetcode/tree/master/0647-palindromic-substrings) |
+| [0746-min-cost-climbing-stairs](https://github.com/Hyunsujk/leetcode/tree/master/0746-min-cost-climbing-stairs) |
 | [0747-min-cost-climbing-stairs](https://github.com/Hyunsujk/leetcode/tree/master/0747-min-cost-climbing-stairs) |
 | [1013-fibonacci-number](https://github.com/Hyunsujk/leetcode/tree/master/1013-fibonacci-number) |
 | [1250-longest-common-subsequence](https://github.com/Hyunsujk/leetcode/tree/master/1250-longest-common-subsequence) |
