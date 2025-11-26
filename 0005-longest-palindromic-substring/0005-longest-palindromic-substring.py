@@ -7,15 +7,10 @@ class Solution:
                 r += 1
             
             return s[l+1:r]
-        
-        if n == 0:
-            return 0
-        if n == 1:
-            return s
 
         longest = ""
-        for i in range(1, n):
-            even = expand(i-1, i)
+        for i in range(n):
+            even = expand(i, i+1)
             odd = expand(i, i)
 
             longer = even if len(even) > len(odd) else odd
