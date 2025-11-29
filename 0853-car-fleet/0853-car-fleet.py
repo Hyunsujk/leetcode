@@ -1,12 +1,16 @@
 class Solution:
     def carFleet(self, target: int, position: List[int], speed: List[int]) -> int:
-        stack = []
+        time = []
+        fleet = []
 
-        cars = sorted(zip(position,speed), reverse=True)
+        for i in range(len(position)):
+            time_taken = (target-position[i]) / speed[i]
+            time.append((position[i], time_taken))
 
-        for position, speed in cars:
-            time_taken = (target-position) / speed
-            if not stack or stack[-1] < time_taken:
-                stack.append(time_taken)
+        time.sort(key=lambda x: x[0], reverse=True)
         
-        return len(stack)
+        for position, time_taken in time:
+            if not fleet or fleet[-1] < time_taken:
+                fleet.append(time_taken)
+
+        return len(fleet)
