@@ -17,8 +17,6 @@ class Solution:
                     r -= 1
                 elif total < 0:
                     l += 1
-                    while nums[l] == nums[l-1]:
-                        l += 1
                 else:
                     res.append([num, nums[l], nums[r]])
                     l += 1
