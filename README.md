@@ -83,6 +83,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1972-rotating-the-box](https://github.com/Hyunsujk/leetcode/tree/master/1972-rotating-the-box) |
 | [2075-brightest-position-on-street](https://github.com/Hyunsujk/leetcode/tree/master/2075-brightest-position-on-street) |
 | [2169-simple-bank-system](https://github.com/Hyunsujk/leetcode/tree/master/2169-simple-bank-system) |
+| [2502-design-memory-allocator](https://github.com/Hyunsujk/leetcode/tree/master/2502-design-memory-allocator) |
 | [2779-number-of-adjacent-elements-with-the-same-color](https://github.com/Hyunsujk/leetcode/tree/master/2779-number-of-adjacent-elements-with-the-same-color) |
 | [2889-number-of-black-blocks](https://github.com/Hyunsujk/leetcode/tree/master/2889-number-of-black-blocks) |
 | [3269-number-of-subarrays-that-match-a-pattern-i](https://github.com/Hyunsujk/leetcode/tree/master/3269-number-of-subarrays-that-match-a-pattern-i) |
@@ -123,6 +124,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1034-subarrays-with-k-different-integers](https://github.com/Hyunsujk/leetcode/tree/master/1034-subarrays-with-k-different-integers) |
 | [1866-restore-the-array-from-adjacent-pairs](https://github.com/Hyunsujk/leetcode/tree/master/1866-restore-the-array-from-adjacent-pairs) |
 | [2169-simple-bank-system](https://github.com/Hyunsujk/leetcode/tree/master/2169-simple-bank-system) |
+| [2502-design-memory-allocator](https://github.com/Hyunsujk/leetcode/tree/master/2502-design-memory-allocator) |
 | [2889-number-of-black-blocks](https://github.com/Hyunsujk/leetcode/tree/master/2889-number-of-black-blocks) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Hyunsujk/leetcode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3335-minimum-operations-to-write-the-letter-y-on-a-grid](https://github.com/Hyunsujk/leetcode/tree/master/3335-minimum-operations-to-write-the-letter-y-on-a-grid) |
@@ -433,6 +435,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0789-kth-largest-element-in-a-stream](https://github.com/Hyunsujk/leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1023-time-based-key-value-store](https://github.com/Hyunsujk/leetcode/tree/master/1023-time-based-key-value-store) |
 | [2169-simple-bank-system](https://github.com/Hyunsujk/leetcode/tree/master/2169-simple-bank-system) |
+| [2502-design-memory-allocator](https://github.com/Hyunsujk/leetcode/tree/master/2502-design-memory-allocator) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -566,6 +569,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0723-candy-crush](https://github.com/Hyunsujk/leetcode/tree/master/0723-candy-crush) |
 | [2169-simple-bank-system](https://github.com/Hyunsujk/leetcode/tree/master/2169-simple-bank-system) |
 | [2288-count-operations-to-obtain-zero](https://github.com/Hyunsujk/leetcode/tree/master/2288-count-operations-to-obtain-zero) |
+| [2502-design-memory-allocator](https://github.com/Hyunsujk/leetcode/tree/master/2502-design-memory-allocator) |
 ## Combinatorics
 |  |
 | ------- |
